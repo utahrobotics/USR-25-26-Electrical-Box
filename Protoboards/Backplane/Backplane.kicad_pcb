@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "USR Universal Prototyping Backplane")
+		(date "2026-01-20")
+		(rev "0")
+		(company "Utah Student Robotics")
+		(comment 1 "Designed by Vincent Banh")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

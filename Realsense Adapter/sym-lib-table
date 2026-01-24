@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Realsense")(type "KiCad")(uri "${KIPRJMOD}/Realsense.kicad_sym")(options "")(descr ""))
+)

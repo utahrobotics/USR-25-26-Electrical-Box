@@ -1,3 +1,9 @@
-/Backplane/USR 25-26 Electrical Box-backups
-/MCU Card/USR 25-26 MCU Card-backups
-/Protoboards/Backplane/Backplane-backups
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+fp-info-cache
+~*.lck
+*.kicad_prl
+\#auto_saved_files\#

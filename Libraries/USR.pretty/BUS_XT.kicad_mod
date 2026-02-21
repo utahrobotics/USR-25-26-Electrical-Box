@@ -3,12 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "AT ISA 16 bits Bus Edge Connector")
-	(tags "BUS ISA AT Edge connector")
+	(descr "Edge connector used for attaching to backplane")
 	(property "Reference" "REF**"
-		(at -34.5 -6.5 0)
+		(at 0 6.35 0)
 		(layer "F.SilkS")
-		(uuid "c5372165-ea02-46ee-b8ca-3a8b856d2d32")
+		(uuid "d704fd98-aea1-4c8d-b363-cbe88e39e629")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +16,9 @@
 		)
 	)
 	(property "Value" "BUS_XT"
-		(at -47.5 -6.5 0)
+		(at -10.16 6.35 0)
 		(layer "F.Fab")
-		(uuid "7a32f069-17e5-49c9-8521-e852eaccb9ae")
+		(uuid "af7f1ab0-7543-4c65-aa5e-ff5798734cd8")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1cfba95-b392-4c08-be58-033ffe4ad68a")
+		(uuid "b1bf6395-01df-49f7-a96f-d1c104ae6feb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a35b9d9-b986-45c6-9664-f07c7e1e8f0b")
+		(uuid "8a2dcaa0-c98a-4c39-8ef9-6e9b9de9c5e4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,47 +54,47 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -78.57 -4.965)
-		(end -78.97 -4.965)
+		(start -78.74 3.81)
+		(end -78.74 -5.08)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "05463470-1cde-43ab-b969-7b9948a2355c")
+		(layer "Edge.Cuts")
+		(uuid "a948c633-ae29-4e26-a72b-b5ed3559a1cc")
 	)
 	(fp_line
-		(start -78.57 3.985)
-		(end -78.57 -4.965)
+		(start 2.54 -5.08)
+		(end 2.54 3.81)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "3148b8eb-fd1f-42fc-a5b8-797f4b9a7a43")
+		(layer "Edge.Cuts")
+		(uuid "2cedd637-977d-4c7e-9c7c-77d128da57f7")
 	)
 	(fp_line
-		(start 2.6 -5.1)
-		(end 3 -5.1)
+		(start 2.54 3.81)
+		(end -78.74 3.81)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "45030234-d458-4369-8943-bd3fefd4cc13")
+		(layer "Edge.Cuts")
+		(uuid "b300801e-b42c-4bd1-a7bd-7e6254d955a7")
 	)
 	(fp_line
-		(start 2.6 3.85)
-		(end 2.6 -5.1)
+		(start -78.99 -5.33)
+		(end -78.99 4.06)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "80056b17-090c-41dd-8ad9-d014d809b5d8")
+		(layer "F.CrtYd")
+		(uuid "9dd06ad9-e676-443c-86ce-61f9e7d17edf")
 	)
 	(fp_line
-		(start -78.75 -5.33)
+		(start -78.99 -5.33)
 		(end 2.79 -5.33)
 		(stroke
 			(width 0.05)
@@ -105,18 +104,8 @@
 		(uuid "4e4c1160-e7dd-49f2-b313-84f2f8e20e29")
 	)
 	(fp_line
-		(start -78.75 -5.195)
-		(end -78.75 4.195)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9dd06ad9-e676-443c-86ce-61f9e7d17edf")
-	)
-	(fp_line
 		(start 2.79 4.06)
-		(end -78.75 4.195)
+		(end -78.99 4.06)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -133,46 +122,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "2365055c-2e92-43a0-86f5-870be3d9841a")
-	)
-	(fp_line
-		(start -78.5 -4.945)
-		(end 2.54 -5.08)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f1618b4e-eef5-4b1e-a89e-545103192551")
-	)
-	(fp_line
-		(start -78.5 3.945)
-		(end -78.5 -4.945)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "79372b7c-c7cd-44a5-817e-ce61eff23f2f")
-	)
-	(fp_line
-		(start 2.54 -5.08)
-		(end 2.54 3.81)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2cedd637-977d-4c7e-9c7c-77d128da57f7")
-	)
-	(fp_line
-		(start 2.54 3.81)
-		(end -78.74 3.81)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b300801e-b42c-4bd1-a7bd-7e6254d955a7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -64.77 -0.635 0)

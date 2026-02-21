@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "USR")(type "KiCad")(uri "${KIPRJMOD}/USR.kicad_sym")(options "")(descr ""))
+  (lib (name "USR")(type "KiCad")(uri "${KIPRJMOD}/../Libraries/USR.kicad_sym")(options "")(descr ""))
 )

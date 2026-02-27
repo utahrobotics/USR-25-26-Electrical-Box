@@ -620,6 +620,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USR:1N5819"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1N5819"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "USR:DO-41_STM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/1n5817.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1N5819"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DO-41_STM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 6.35 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USR_SymLibrary:LKSR_50-NP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2333,16 +2539,6 @@
 		)
 		(uuid "3dd1f891-9737-4759-9b15-e7513cc057aa")
 	)
-	(text "HE sensors need a 5V supply voltage connected to Uc\n"
-		(exclude_from_sim no)
-		(at 164.846 18.542 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f37fb0d-d1eb-4140-85c2-aec08ee870d5")
-	)
 	(text "2/5/2026\n"
 		(exclude_from_sim no)
 		(at 335.534 280.416 0)
@@ -2352,16 +2548,6 @@
 			)
 		)
 		(uuid "5175919f-2a01-42f6-984b-a1f0fe53ef5e")
-	)
-	(text "Look into digitizing the analog output of the HE sensors\non the PDB to minimize possible noise\n"
-		(exclude_from_sim no)
-		(at 155.194 24.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "52d8a79e-cdc3-4422-8008-693bdd88e710")
 	)
 	(text "put the level shifter on this board right after\nthe HE sensor?\n"
 		(exclude_from_sim no)
@@ -2596,6 +2782,16 @@
 			(type default)
 		)
 		(uuid "0d6914ad-09bd-43a3-994c-01e89ce9ee69")
+	)
+	(wire
+		(pts
+			(xy 279.4 231.14) (xy 279.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffc7927-6ec7-4840-9f82-5bab919bbf80")
 	)
 	(wire
 		(pts
@@ -3169,16 +3365,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 228.6) (xy 279.4 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93b493b-e7a3-430b-97b0-30b36ce8661d")
-	)
-	(wire
-		(pts
 			(xy 288.29 53.34) (xy 294.64 53.34)
 		)
 		(stroke
@@ -3591,7 +3777,7 @@
 			)
 		)
 	)
-	(global_label "5Vout"
+	(global_label "5V"
 		(shape input)
 		(at 346.71 48.26 0)
 		(fields_autoplaced yes)
@@ -3603,7 +3789,7 @@
 		)
 		(uuid "66be95eb-c7ed-4ae6-9b4b-95c29581b437")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.017 48.26 0)
+			(at 351.9933 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3887,7 @@
 			)
 		)
 	)
-	(global_label "5Vout"
+	(global_label "5V"
 		(shape input)
 		(at 163.83 106.68 270)
 		(fields_autoplaced yes)
@@ -3713,7 +3899,7 @@
 		)
 		(uuid "7f7dfbfa-25ab-46c9-a631-2b0a5dc93b61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 114.987 90)
+			(at 163.83 111.9633 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3909,7 @@
 			)
 		)
 	)
-	(global_label "5Vout"
+	(global_label "5V"
 		(shape input)
 		(at 163.83 60.96 270)
 		(fields_autoplaced yes)
@@ -3735,7 +3921,7 @@
 		)
 		(uuid "8219e9b6-97ca-4614-83f0-4f289d0a452f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 69.267 90)
+			(at 163.83 66.2433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3953,7 @@
 			)
 		)
 	)
-	(global_label "5Vout"
+	(global_label "5V"
 		(shape input)
 		(at 377.19 210.82 0)
 		(fields_autoplaced yes)
@@ -3779,7 +3965,7 @@
 		)
 		(uuid "92129b13-6e41-4316-bfa6-8b9dd34506b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 385.497 210.82 0)
+			(at 382.4733 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,6 +4717,78 @@
 			(project "USR-PDB"
 				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USR:1N5819")
+		(at 279.4 220.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2834e22f-7a5b-4740-8ede-2ffd7d661c25")
+		(property "Reference" "CR1"
+			(at 283.21 224.7899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 283.21 227.3299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "USR:DO-41_STM"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/1n5817.pdf"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky diode"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ae7370f-f452-47bb-b60f-558ca2636069")
+		)
+		(pin "1"
+			(uuid "4a2cf38c-95df-45ac-a6e5-1b683ba26e8a")
+		)
+		(instances
+			(project ""
+				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -5645,72 +5903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 279.4 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb52239-5aec-49ea-a8e9-aecabb9d00ca")
-		(property "Reference" "#PWR014"
-			(at 279.4 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "455f0a3b-3036-4ea4-a60b-e7c6e619d47c")
-		)
-		(instances
-			(project ""
-				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "USR_SymLibrary:root_0_Anderson_PP45_Vert._2x1_")
 		(at 179.07 196.85 0)
 		(unit 1)
@@ -6501,6 +6693,72 @@
 			(project "USR-PDB"
 				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b66e5124-95cb-4dba-b07d-2e402971e8a3")
+		(property "Reference" "#PWR014"
+			(at 279.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ab97c2-5530-4d13-a8c3-e285d4b69ab4")
+		)
+		(instances
+			(project ""
+				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7809,76 +8067,6 @@
 			(project ""
 				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
 					(reference "Cinx1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 279.4 224.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb44c468-261d-47dd-b448-007e4ce8c687")
-		(property "Reference" "D2"
-			(at 281.94 223.2024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 281.94 225.7424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 279.4 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22c7589c-8b43-4edb-965f-8fec87e6ad2d")
-		)
-		(pin "1"
-			(uuid "af18a798-b411-48c7-ab6c-8a4b6d447c39")
-		)
-		(instances
-			(project ""
-				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
-					(reference "D2")
 					(unit 1)
 				)
 			)

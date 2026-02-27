@@ -5,145 +5,6 @@
 	(uuid "f68b009f-fb0c-4740-82e4-ffb6e04b94c2")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -269,6 +130,146 @@
 				)
 			)
 			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -4201,7 +4202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:CAP_ATLL_06p3X15p0_WRE"
 			(at 152.4 204.47 0)
 			(effects
 				(font
@@ -4210,7 +4211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860160673019.pdf"
 			(at 152.4 204.47 0)
 			(effects
 				(font
@@ -4419,7 +4420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:WE-FI_7447025"
 			(at 361.95 210.82 0)
 			(effects
 				(font
@@ -4555,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:PCAP_6.3x7.7-ELECT_NCA"
 			(at 316.23 227.33 0)
 			(effects
 				(font
@@ -5544,7 +5545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:CAP_WCAP-ATUL_05.0X11.0_WRE"
 			(at 63.5 204.47 0)
 			(effects
 				(font
@@ -5553,7 +5554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860040472002.pdf"
 			(at 63.5 204.47 0)
 			(effects
 				(font
@@ -6230,7 +6231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:U2-K_NCH"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -6239,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uud.pdf"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -6489,7 +6490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_US")
 		(at 88.9 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6499,7 +6500,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4027e60-ec98-4931-9f04-44bbf9ee552e")
 		(property "Reference" "Cb1"
-			(at 92.71 203.1999 0)
+			(at 92.71 203.4539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6509,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 92.71 205.7399 0)
+			(at 92.71 205.9939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,16 +6517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 89.8652 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
+		(property "Footprint" "USR:CAP_C320C_MOLDED RADIAL_KEM"
 			(at 88.9 204.47 0)
 			(effects
 				(font
@@ -6534,7 +6526,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1049_GOLDMAX_C0G.pdf"
+			(at 88.9 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
 			(at 88.9 204.47 0)
 			(effects
 				(font
@@ -6586,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:SMA_DIO"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -6656,7 +6657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:U2-K_NCH"
 			(at 370.84 220.98 0)
 			(effects
 				(font
@@ -6665,7 +6666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uud.pdf"
 			(at 370.84 220.98 0)
 			(effects
 				(font
@@ -7169,7 +7170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:IND_BOURNS_SDR1806"
 			(at 298.45 215.9 0)
 			(effects
 				(font
@@ -7512,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:IND_BOURNS_SRR1210"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -8003,7 +8004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_US")
 		(at 76.2 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8013,7 +8014,7 @@
 		(fields_autoplaced yes)
 		(uuid "e500691e-249c-478b-8920-650247166b1d")
 		(property "Reference" "Cinx1"
-			(at 80.01 203.1999 0)
+			(at 80.01 203.4539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8023,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 80.01 205.7399 0)
+			(at 80.01 205.9939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,8 +8031,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.1652 208.28 0)
+		(property "Footprint" "USR:CAP_C320C_MOLDED RADIAL_KEM"
+			(at 76.2 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "capacitor, US symbol"
 			(at 76.2 204.47 0)
 			(effects
 				(font

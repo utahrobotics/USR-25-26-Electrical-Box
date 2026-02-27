@@ -1,4 +1,4 @@
-27236739248459228
+27254460952963812
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107135,12 +107135,54 @@ Edge connector used for attaching to backplane
 62
 62
 USR
+CAP_ATLL_06p3X15p0_WRE
+
+860160673019 
+0
+2
+2
+USR
+CAP_C320C_MOLDED RADIAL_KEM
+
+C320C104J3G5TA 
+0
+2
+2
+USR
+CAP_WCAP-ATUL_05.0X11.0_WRE
+
+860040472002 
+0
+2
+2
+USR
+DO-41_STM
+
+1N5819 
+0
+2
+2
+USR
 FUSE_3557-15
 
 
 0
 4
 4
+USR
+IND_BOURNS_SDR1806
+
+SDR1806-331KL 
+0
+2
+2
+USR
+IND_BOURNS_SRR1210
+
+SRR1210-680M 
+0
+2
+2
 USR
 LKSR 50-NP
 Hall Effect Sensor
@@ -107170,12 +107212,26 @@ MD31B
 20
 14
 USR
+PCAP_6.3x7.7-ELECT_NCA
+
+UWT0J331MCL1GS 
+0
+2
+2
+USR
 PDIP8_300MC_MCH
 
 MCP3002-I/P 
 0
 8
 8
+USR
+SMA_DIO
+
+B260A-13-F 
+0
+2
+2
 USR
 TE_7-5530843-0
 
@@ -107190,6 +107246,20 @@ TL2575HV-05IKV
 0
 5
 5
+USR
+U2-K_NCH
+
+UUD1E101MCL1GS 
+0
+2
+2
+USR
+WE-FI_7447025
+
+
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

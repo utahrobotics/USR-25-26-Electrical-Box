@@ -55,6 +55,17 @@
 	)
 	(attr smd)
 	(fp_rect
+		(start -17.145 -10.795)
+		(end 17.145 10.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c6d392db-de57-46e0-99a2-d15e3111130e")
+	)
+	(fp_rect
 		(start -17.78 -11.43)
 		(end 17.78 11.43)
 		(stroke

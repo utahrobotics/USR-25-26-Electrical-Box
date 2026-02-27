@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "3557-15:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1456,7 +1456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:LKSR 50-NP"
+		(property "Footprint" "USR:LKSR 50-NP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:LM2676-TO127P457X1016X2052-7P"
+		(property "Footprint" "USR:LM2676-TO127P457X1016X2052-7P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2297,7 +2297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:PDIP8_300MC_MCH"
+		(property "Footprint" "USR:PDIP8_300MC_MCH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:TL2575HV-05IKV"
+		(property "Footprint" "USR:TL2575HV-05IKV"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3105,7 +3105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/pp/ds-pp1545.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Anderson connector"
 			(at 0 0 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-27229650282857366
+27236739248459228
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107120,42 +107120,70 @@ igbt diode module
 0
 25
 25
-USR-Footprint-Library
+USR
 ANDERSON PP45 VERT. 2X1
 
 
 0
 2
 2
-USR-Footprint-Library
+USR
+BUS_XT
+Edge connector used for attaching to backplane
+
+0
+62
+62
+USR
 FUSE_3557-15
 
 
 0
 4
 4
-USR-Footprint-Library
+USR
 LKSR 50-NP
 Hall Effect Sensor
 
 0
 12
 12
-USR-Footprint-Library
+USR
 LM2676-TO127P457X1016X2052-7P
 
 
 0
 7
 7
-USR-Footprint-Library
+USR
+LSM6DSO
+
+
+0
+14
+14
+USR
+MD31B
+
+
+0
+20
+14
+USR
 PDIP8_300MC_MCH
 
 MCP3002-I/P 
 0
 8
 8
-USR-Footprint-Library
+USR
+TE_7-5530843-0
+
+
+0
+62
+62
+USR
 TL2575HV-05IKV
 
 TL2575HV-05IKV 

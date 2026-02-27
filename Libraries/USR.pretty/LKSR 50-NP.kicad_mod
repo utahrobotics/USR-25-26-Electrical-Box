@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Hall Effect Sensor"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

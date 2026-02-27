@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2676.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1772163015296&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm2676"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -37,7 +37,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "12V 3A switching regulator"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

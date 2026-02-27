@@ -4085,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -4437,7 +4437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 138.43 0)
 			(effects
 				(font
@@ -4693,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:LKSR 50-NP"
+		(property "Footprint" "USR:LKSR 50-NP"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -4791,7 +4791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:LM2676-TO127P457X1016X2052-7P"
+		(property "Footprint" "USR:LM2676-TO127P457X1016X2052-7P"
 			(at 118.11 184.15 0)
 			(effects
 				(font
@@ -5120,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:LKSR 50-NP"
+		(property "Footprint" "USR:LKSR 50-NP"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -5545,7 +5545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 157.48 0)
 			(effects
 				(font
@@ -5738,7 +5738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 179.07 196.85 0)
 			(effects
 				(font
@@ -5888,7 +5888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 187.96 36.83 0)
 			(effects
 				(font
@@ -6108,7 +6108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 71.12 160.02 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 71.12 140.97 0)
 			(effects
 				(font
@@ -6682,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:TL2575HV-05IKV"
+		(property "Footprint" "USR:TL2575HV-05IKV"
 			(at 279.4 195.58 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/pp/ds-pp1545.pdf"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Anderson connectors"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -7129,7 +7129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 101.6 0)
 			(effects
 				(font
@@ -7454,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 82.55 0)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:ANDERSON PP45 VERT. 2X1"
+		(property "Footprint" "USR:ANDERSON PP45 VERT. 2X1"
 			(at 71.12 123.19 0)
 			(effects
 				(font
@@ -8060,7 +8060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:PDIP8_300MC_MCH"
+		(property "Footprint" "USR:PDIP8_300MC_MCH"
 			(at 294.64 48.26 0)
 			(effects
 				(font
@@ -8280,7 +8280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR-Footprint-Library:FUSE_3557-15"
+		(property "Footprint" "USR:FUSE_3557-15"
 			(at 49.53 63.5 0)
 			(effects
 				(font

@@ -1,0 +1,208 @@
+(footprint "LM2676-TO127P457X1016X2052-7P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.91256 1.60059 0)
+		(layer "F.SilkS")
+		(uuid "c5bee54a-7824-4568-8922-6a0d939680a9")
+		(effects
+			(font
+				(size 1.640409 1.640409)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM2676-TO127P457X1016X2052-7P"
+		(at 13.82591 13.902075 0)
+		(layer "F.Fab")
+		(uuid "5f423d8d-a9ea-4bda-a7d9-2bef10497636")
+		(effects
+			(font
+				(size 1.640984 1.640984)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e6bb04f-0326-4065-9009-a372b6f30b5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd70da62-410f-41a6-8b0e-d826c7b48f59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.017 3.2512)
+		(end -9.017 7.9502)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f560fc3b-0619-43bf-a081-659f765de97a")
+	)
+	(fp_line
+		(start -9.017 7.9502)
+		(end 1.397 7.9502)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fa97e8a-4eaf-465d-8274-d26ff74a67c4")
+	)
+	(fp_line
+		(start 1.397 3.2512)
+		(end -9.017 3.2512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cb09242-3d7c-4b32-8bd8-4428142d5c35")
+	)
+	(fp_line
+		(start 1.397 7.9502)
+		(end 1.397 3.2512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58c181f4-703f-444c-ba8e-6f576ca3dab9")
+	)
+	(fp_line
+		(start -9.017 3.2512)
+		(end -9.017 7.9502)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2faffab1-7b88-4cc2-87bd-5637f19399f1")
+	)
+	(fp_line
+		(start -9.017 7.9502)
+		(end 1.397 7.9502)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06e24964-c7fd-4c05-bf51-fe08a0d0bb1f")
+	)
+	(fp_line
+		(start 1.397 3.2512)
+		(end -9.017 3.2512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cbd0f3d-d705-4b6e-a667-ffb2e163c2d4")
+	)
+	(fp_line
+		(start 1.397 7.9502)
+		(end 1.397 3.2512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdf8a3e2-f641-4904-a405-ea5dee6ea575")
+	)
+	(pad "1" thru_hole rect
+		(at -7.62 11.2014)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f3d88fca-de0f-42c6-a9f3-d439c6dffacd")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 6.1214)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b9d06848-5896-4d3b-85af-adaeb85fee93")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 11.2014)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ba7850e9-ccfa-4888-a099-6053cce311ed")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 6.1214)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ca50ef5c-153f-4672-b50f-48374c2a810f")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 11.2014)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "38c06450-c168-4532-ac3e-89a26b6d997f")
+	)
+	(pad "6" thru_hole circle
+		(at -1.27 6.1214)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f3674a3e-3c12-46b9-8fa1-08e96c6302ab")
+	)
+	(pad "7" thru_hole circle
+		(at 0 11.2014)
+		(size 1.9812 1.9812)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "22428273-10f2-4962-85ad-175d2860cfd3")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/peter/Downloads/LM2676T_12_NOPB/LM2676T-12_NOPB.step"
+		(offset
+			(xyz -3.7 -6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

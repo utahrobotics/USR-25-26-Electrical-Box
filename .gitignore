@@ -1,9 +1,32 @@
+# --- KiCad main project files to ignore ---
+*.kicad_prl
+*.kicad_pro
+fp-info-cache
+
+# --- Temporary and Lock files ---
+~*.lck  
+\#auto_saved_files\#
+_autosave-*
+*.tmp
+
+# --- Backups ---
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
-fp-info-cache
-~*.lck
-*.kicad_prl
-\#auto_saved_files\#
+
+# --- Reports and outputs ---
+*.erc
+*.drc
+*.rpt
+*.gbr
+*.drl
+*.pos
+*.pdf
+
+
+
+
+
+

@@ -455,7 +455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:USR-62P-SLOT"
 			(at 7.62 0 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(property "Reference" "U1"
 		(at 0 -15.1384 0)
 		(layer "F.SilkS")
-		(uuid "22c0cde9-960e-4ca4-9939-7f5e99140244")
+		(uuid "01d75f8c-2668-42b3-b927-9a45c38f005b")
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -17,8 +17,8 @@
 	)
 	(property "Value" "Anderson PP45 Vert. 2x1"
 		(at 0 -16.9164 0)
-		(layer "F.SilkS")
-		(uuid "75947732-7216-4b06-9819-757c4d96fb77")
+		(layer "F.Fab")
+		(uuid "dbac7008-1388-4ecc-9749-4dffcde6d121")
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f8956bf9-d3fd-407a-9277-9bd81a4f60a4")
+		(uuid "c3893d63-a5ec-435f-b2d2-cb36ecdc600a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c8f654d-fa72-4b53-b5be-49aecf47123e")
+		(uuid "8f390478-b2ea-4022-a486-f7383e4dcc6e")
 		(effects
 			(font
 				(size 1.27 1.27)

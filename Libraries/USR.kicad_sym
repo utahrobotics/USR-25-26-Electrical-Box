@@ -2,212 +2,6 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "1N5819"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "CR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "USR:DO-41_STM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/1n5817.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "1N5819"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "DO-41_STM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1N5819_0_1"
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 3.81 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 1.905) (xy 3.81 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 6.35 -1.905)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -1.27) (xy 4.445 -1.905)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 1.905) (xy 3.81 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -1.905) (xy 6.35 1.905)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0) (xy 6.35 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "3557-15"
 		(pin_names
 			(offset 1.016)
@@ -1615,30 +1409,30 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B260A-13-F"
+	(symbol "CD74HC4067SM96"
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "CR"
-			(at 5.08 4.445 0)
+		(property "Reference" "U"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "B260A-13-F"
-			(at 5.08 -3.81 0)
+		(property "Value" "CD74HC4067SM96"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "USR:SMA_DIO"
+		(property "Footprint" "USR:CD74HC4067SM96"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1648,7 +1442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B220_A-B260_A.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/cd74hc4067"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1658,7 +1452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "700mV @ 2A Schottky diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1667,7 +1461,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "B260A-13-F"
+		(property "ki_keywords" "CD74HC4067SM96"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1676,7 +1470,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SMA_DIO SMA_DIO-M SMA_DIO-L"
+		(property "ki_fp_filters" "DB0024A_N DB0024A_M DB0024A_L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1685,10 +1479,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "B260A-13-F_1_1"
+		(symbol "CD74HC4067SM96_0_1"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 3.4798 0)
+					(xy -15.24 35.56) (xy -15.24 -35.56)
 				)
 				(stroke
 					(width 0.2032)
@@ -1700,7 +1494,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 0) (xy 3.81 0)
+					(xy -15.24 -35.56) (xy 15.24 -35.56)
 				)
 				(stroke
 					(width 0.2032)
@@ -1712,7 +1506,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 1.905) (xy 3.81 -1.905)
+					(xy 15.24 35.56) (xy -15.24 35.56)
 				)
 				(stroke
 					(width 0.2032)
@@ -1724,7 +1518,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.905) (xy 6.35 0)
+					(xy 15.24 -35.56) (xy 15.24 35.56)
 				)
 				(stroke
 					(width 0.2032)
@@ -1734,46 +1528,154 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.35 0) (xy 3.81 1.905)
+			(pin power_in line
+				(at -20.32 30.48 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 0) (xy 7.62 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.35 -1.905) (xy 6.35 1.905)
+			(pin input line
+				(at -20.32 25.4 0)
+				(length 5.08)
+				(name "I0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 2.54)
-				(name ""
+			(pin input line
+				(at -20.32 22.86 0)
+				(length 5.08)
+				(name "I1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 20.32 0)
+				(length 5.08)
+				(name "I2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 17.78 0)
+				(length 5.08)
+				(name "I3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 15.24 0)
+				(length 5.08)
+				(name "I4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 12.7 0)
+				(length 5.08)
+				(name "I5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 10.16 0)
+				(length 5.08)
+				(name "I6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 7.62 0)
+				(length 5.08)
+				(name "I7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1788,10 +1690,244 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name ""
+			(pin input line
+				(at -20.32 5.08 0)
+				(length 5.08)
+				(name "I8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 2.54 0)
+				(length 5.08)
+				(name "I9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 0 0)
+				(length 5.08)
+				(name "I10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -2.54 0)
+				(length 5.08)
+				(name "I11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -5.08 0)
+				(length 5.08)
+				(name "I12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -7.62 0)
+				(length 5.08)
+				(name "I13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -10.16 0)
+				(length 5.08)
+				(name "I14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -12.7 0)
+				(length 5.08)
+				(name "I15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -17.78 0)
+				(length 5.08)
+				(name "S0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -20.32 0)
+				(length 5.08)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -22.86 0)
+				(length 5.08)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -25.4 0)
+				(length 5.08)
+				(name "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -30.48 0)
+				(length 5.08)
+				(name "E_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 27.94 180)
+				(length 5.08)
+				(name "COMMON_I_O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1806,121 +1942,17 @@
 					)
 				)
 			)
-		)
-		(symbol "B260A-13-F_1_2"
-			(polyline
-				(pts
-					(xy -1.905 3.81) (xy 1.905 3.81)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 6.35) (xy -1.905 3.81)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 6.35) (xy 0 7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.175) (xy 0 3.81)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 3.4798)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 6.35) (xy -1.905 6.35)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 3.81) (xy 0 6.35)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 10.16 270)
-				(length 2.54)
-				(name ""
+			(pin power_in line
+				(at 20.32 -30.48 180)
+				(length 5.08)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3611,734 +3643,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SDR1806-331KL"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L"
-			(at 6.985 5.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SDR1806-331KL"
-			(at 6.985 -2.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "USR:IND_BOURNS_SDR1806"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SDR1806.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "330uH 1A inductor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "SDR1806-331KL"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "IND_BOURNS_SDR1806"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SDR1806-331KL_1_1"
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 1.27)
-				(mid 3.81 2.5344)
-				(end 5.08 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 5.08 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 1.27)
-				(mid 6.35 2.5344)
-				(end 7.62 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0) (xy 7.62 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 7.62 1.27)
-				(mid 8.89 2.5344)
-				(end 10.16 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 10.16 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 10.16 1.27)
-				(mid 11.43 2.5344)
-				(end 12.7 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 12.7 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SDR1806-331KL_1_2"
-			(arc
-				(start -1.27 10.16)
-				(mid -2.5344 11.43)
-				(end -1.27 12.7)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 7.62)
-				(mid -2.5344 8.89)
-				(end -1.27 10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 5.08)
-				(mid -2.5344 6.35)
-				(end -1.27 7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 2.54)
-				(mid -2.5344 3.81)
-				(end -1.27 5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 12.7) (xy -1.27 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 10.16) (xy -1.27 10.16)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 7.62) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy -1.27 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 15.24 270)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 90)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "SRR1210-680M"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L"
-			(at 6.985 5.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SRR1210-680M"
-			(at 6.985 -2.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "USR:IND_BOURNS_SRR1210"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "68uH 3A inductor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "SRR1210-680M"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "IND_BOURNS_SRR1210"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SRR1210-680M_1_1"
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 1.27)
-				(mid 3.81 2.5344)
-				(end 5.08 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 5.08 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 1.27)
-				(mid 6.35 2.5344)
-				(end 7.62 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 0) (xy 7.62 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 7.62 1.27)
-				(mid 8.89 2.5344)
-				(end 10.16 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 10.16 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 10.16 1.27)
-				(mid 11.43 2.5344)
-				(end 12.7 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 12.7 1.27)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SRR1210-680M_1_2"
-			(arc
-				(start -1.27 10.16)
-				(mid -2.5344 11.43)
-				(end -1.27 12.7)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 7.62)
-				(mid -2.5344 8.89)
-				(end -1.27 10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 5.08)
-				(mid -2.5344 6.35)
-				(end -1.27 7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 2.54)
-				(mid -2.5344 3.81)
-				(end -1.27 5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 12.7) (xy -1.27 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 10.16) (xy -1.27 10.16)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 7.62) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy -1.27 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 15.24 270)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 90)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "TL2575HV-05IKV"
 		(pin_names
 			(offset 0.254)
@@ -4544,217 +3848,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "WE-FI"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "WE-FI"
-			(at -5.08 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "USR:WE-FI_7447025"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447025.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20uH inductor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "732-7447025-ND"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7447025/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "L = 20 µH ±20%; IR = 5.7 A; RDC = 0.02 Ω"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Elektronik"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/7447025/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "7447025"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "WE-FI_0_0"
-			(arc
-				(start -5.08 0)
-				(mid -3.81 1.2645)
-				(end -2.54 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 0)
-				(mid -1.27 1.2645)
-				(end 0 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 1.27 1.2645)
-				(end 2.54 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 0)
-				(mid 3.81 1.2645)
-				(end 5.08 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)

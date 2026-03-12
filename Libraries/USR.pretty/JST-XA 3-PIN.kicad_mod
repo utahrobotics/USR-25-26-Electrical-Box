@@ -54,6 +54,28 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -6.5 0.5)
+		(end 6.5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c139089e-936c-4a41-8018-06f08fadc3aa")
+	)
+	(fp_rect
+		(start -7 0)
+		(end 7 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d31e7b64-ae1b-4752-ad34-d55cc486d847")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

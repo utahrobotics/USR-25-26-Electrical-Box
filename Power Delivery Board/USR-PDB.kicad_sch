@@ -2997,26 +2997,6 @@
 		)
 		(uuid "0bca69e8-d30b-47fd-9dc0-818bd8d94bc4")
 	)
-	(text "use the 0805 SMD cap's we already have for \nthe 100nF and 10nF cap's"
-		(exclude_from_sim no)
-		(at 82.55 250.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "27b55d4e-daba-4b99-a6a8-395ca399f2f2")
-	)
-	(text "find XT90 footprint"
-		(exclude_from_sim no)
-		(at 29.464 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "339c1419-d002-48c3-91eb-383d43be9f9b")
-	)
 	(text "3/12/2026"
 		(exclude_from_sim no)
 		(at 335.534 280.416 0)
@@ -3036,16 +3016,6 @@
 			)
 		)
 		(uuid "585892e4-b9b6-411f-94bb-26bc1a054245")
-	)
-	(text "create a vertical version of the AMASS_XT90PW-M for the hole \nsizes, reference the AMASS_XT30	vertical footprint for the\nlayout we want"
-		(exclude_from_sim no)
-		(at 78.232 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "679b3925-7ba5-4be9-abc8-fe37dee25f34")
 	)
 	(text "look into using JST 2.54mm XA male connectors for this"
 		(exclude_from_sim no)
@@ -3097,16 +3067,6 @@
 			(justify left)
 		)
 		(uuid "d671f8e5-9fd8-4684-ae24-9b4075e9b010")
-	)
-	(text "use 10uH 0805 inductors, combine them into the \n20uH inductor here"
-		(exclude_from_sim no)
-		(at 373.888 186.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dcb46a87-5f82-4f29-b6f4-13ac74db2941")
 	)
 	(text "use the 3-pin JST-XA connectors to route 5V to the backplane"
 		(exclude_from_sim no)
@@ -3313,12 +3273,60 @@
 		(uuid "1cde9f77-e7a3-45ce-8bb3-71e410e63780")
 	)
 	(no_connect
+		(at 147.32 86.36)
+		(uuid "2106a345-0ab5-4986-8cd4-7485f879dafc")
+	)
+	(no_connect
 		(at 135.89 220.98)
 		(uuid "3ec1b0ef-25db-484b-8f37-4acfcab585df")
 	)
 	(no_connect
+		(at 168.91 86.36)
+		(uuid "52b78a35-a485-4c00-9e9e-c82065a6bcf0")
+	)
+	(no_connect
 		(at 152.4 101.6)
 		(uuid "84727440-5c76-42dc-9eaf-ce536559327f")
+	)
+	(no_connect
+		(at 147.32 83.82)
+		(uuid "8b242c50-8759-4e4c-af2e-be6a4e6aa925")
+	)
+	(no_connect
+		(at 147.32 36.83)
+		(uuid "938359c0-7712-4d74-a01a-3158d466e28a")
+	)
+	(no_connect
+		(at 168.91 83.82)
+		(uuid "97e02703-d4dd-4cb8-8a16-fa3605f56e51")
+	)
+	(no_connect
+		(at 147.32 41.91)
+		(uuid "a297520b-3bee-4e8a-8c03-675ce64c50e4")
+	)
+	(no_connect
+		(at 168.91 39.37)
+		(uuid "a5a85c1a-c263-4fcc-8a51-9485b10c201e")
+	)
+	(no_connect
+		(at 147.32 39.37)
+		(uuid "aa71a035-f370-42b4-baed-c0405cfea0df")
+	)
+	(no_connect
+		(at 147.32 81.28)
+		(uuid "bec90911-e816-47a3-a139-034bafb433f6")
+	)
+	(no_connect
+		(at 168.91 81.28)
+		(uuid "bfdbeb17-861b-49a1-b05a-9a1db2f0a2a5")
+	)
+	(no_connect
+		(at 168.91 41.91)
+		(uuid "c7fe2ca5-94d9-4c60-87f7-c7bd01e9b3f3")
+	)
+	(no_connect
+		(at 168.91 36.83)
+		(uuid "ed0f4c0e-9f87-4e27-b9d1-b3727641bad6")
 	)
 	(wire
 		(pts
@@ -5184,7 +5192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:CAP_ATLL_06p3X15p0_WRE"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 152.4 220.98 0)
 			(effects
 				(font
@@ -5538,7 +5546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:PCAP_6.3x7.7-ELECT_NCA"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 316.23 227.33 0)
 			(effects
 				(font
@@ -5803,7 +5811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:U2-K_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 63.5 228.6 0)
 			(effects
 				(font
@@ -6929,7 +6937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:CAP_WCAP-ATUL_05.0X11.0_WRE"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 63.5 217.17 0)
 			(effects
 				(font
@@ -7681,7 +7689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:U2-K_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -8037,7 +8045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:SMA_DIO"
+		(property "Footprint" "USR:DO-41_STM"
 			(at 88.9 232.41 0)
 			(effects
 				(font
@@ -8107,7 +8115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:U2-K_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 375.92 220.98 0)
 			(effects
 				(font
@@ -8620,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR:IND_BOURNS_SDR1806"
+		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC"
 			(at 287.02 215.9 0)
 			(effects
 				(font
@@ -8690,7 +8698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USR:AMASS_XT90PW-M_VERTICAL"
 			(at 29.21 45.72 0)
 			(effects
 				(font
@@ -8963,7 +8971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR:IND_BOURNS_SRR1210"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1"
 			(at 147.32 210.82 0)
 			(effects
 				(font
@@ -9288,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USR:IND_BOURNS_SDR1806"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1"
 			(at 298.45 215.9 0)
 			(effects
 				(font
@@ -9358,7 +9366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "USR:JST-XA 2.54mm"
+		(property "Footprint" "USR:JST-XA 4-PIN"
 			(at 375.92 53.34 0)
 			(effects
 				(font

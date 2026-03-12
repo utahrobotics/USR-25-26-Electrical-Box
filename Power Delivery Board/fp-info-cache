@@ -1,4 +1,4 @@
-27247379346997186
+27249156381120264
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107121,6 +107121,20 @@ igbt diode module
 25
 25
 USR
+AMASS_XT90PW-M
+
+
+0
+4
+4
+USR
+AMASS_XT90PW-M_VERTICAL
+
+
+0
+2
+2
+USR
 ANDERSON PP45 VERT. 2X1
 
 
@@ -107134,20 +107148,6 @@ Edge connector used for attaching to backplane
 0
 62
 62
-USR
-CAP_ATLL_06p3X15p0_WRE
-
-860160673019 
-0
-2
-2
-USR
-CAP_WCAP-ATUL_05.0X11.0_WRE
-
-860040472002 
-0
-2
-2
 USR
 DO-41_STM
 
@@ -107211,6 +107211,13 @@ MCP3002-I/P
 0
 8
 8
+USR
+PinHeader_2x31_P2.54mm_Vertical_BACKPLANE
+Through hole straight pin header, 2x31, 2.54mm pitch, double rows
+Through hole pin header THT 2x31 2.54mm double row
+0
+62
+62
 USR
 TE_7-5530843-0
 

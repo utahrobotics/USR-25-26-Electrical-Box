@@ -2490,7 +2490,7 @@
 			)
 		)
 		(property "Footprint" "USR:LM2676-TO127P457X1016X2052-7P"
-			(at 0 0 0)
+			(at -0.508 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2676.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1770279255983&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm2676"
-			(at 0 0 0)
+			(at 11.176 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Description" "12V 3A switching regulator"
-			(at 0 0 0)
+			(at 2.032 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 			)
 		)
 		(property "SUPPLIER" "NATIONAL SEMICONDUCTOR"
-			(at 0 0 0)
+			(at 0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2537,7 @@
 			)
 		)
 		(property "OC_NEWARK" "41K4167"
-			(at 0 0 0)
+			(at -0.254 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2547,7 @@
 			)
 		)
 		(property "MPN" "LM2676T-12/NOPB"
-			(at 0 0 0)
+			(at -19.05 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2557,7 @@
 			)
 		)
 		(property "PACKAGE" "TO-220-7"
-			(at 0 0 0)
+			(at 0.254 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,8 +2568,8 @@
 		)
 		(symbol "LM2676T-12_NOPB_0_0"
 			(rectangle
-				(start -12.7 -15.24)
-				(end 12.7 7.62)
+				(start -12.7 7.62)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0.4064)
 					(type default)
@@ -2589,24 +2589,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -17.78 -2.54 0)
-				(length 5.08)
-				(name "BOOST"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2650,17 +2632,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 0 180)
+			(pin passive line
+				(at 17.78 2.54 180)
 				(length 5.08)
-				(name "SW"
+				(name "BOOST"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2668,10 +2650,30 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -5.08 180)
+			(pin no_connect line
+				(at 17.78 -11.43 180)
 				(length 5.08)
-				(name "FB"
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM2676T-12_NOPB_1_0"
+			(pin passive line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name "FEEDBACK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2686,17 +2688,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -10.16 180)
+			(pin output line
+				(at 17.78 -1.27 180)
 				(length 5.08)
-				(name "NC"
+				(name "SWITCH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)

@@ -10478,7 +10478,7 @@
 		(at 156.35985 152.4)
 		(descr "Edge connector used for attaching to backplane")
 		(property "Reference" "J4"
-			(at 0 6.35 0)
+			(at 3.66015 -6.35 0)
 			(layer "F.SilkS")
 			(uuid "53ae1fa4-9e2e-4ec4-9c55-e0b8e8d1eb30")
 			(effects
@@ -28834,6 +28834,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "11a14ebf-5545-4860-9d27-9cd36da159cf")
+		(pts
+			(xy 75.58785 122.0343) (xy 75.33785 147.32)
+		)
+		(height -15.89785)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "0.9955"
+			(at 58.54 134.67715 90)
+			(layer "Dwgs.User")
+			(uuid "11a14ebf-5545-4860-9d27-9cd36da159cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "5328a5d3-1d2c-4361-b081-96dc1f89550d")
 		(pts
 			(xy 194.45985 27.94) (xy 194.45985 147.32)
@@ -28861,6 +28899,82 @@
 			(at 212.00985 87.63 90)
 			(layer "Dwgs.User")
 			(uuid "5328a5d3-1d2c-4361-b081-96dc1f89550d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "5d8cf051-39f5-4f86-a897-d9680f479fc6")
+		(pts
+			(xy 75.58785 87.89415) (xy 75.33785 147.32)
+		)
+		(height -23.51785)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.3396"
+			(at 50.92 117.607075 90)
+			(layer "Dwgs.User")
+			(uuid "5d8cf051-39f5-4f86-a897-d9680f479fc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "e7156614-9e4e-4029-b9d5-7a0e843e4bd8")
+		(pts
+			(xy 75.58785 45.8343) (xy 76.2 147.32)
+		)
+		(height -29.86785)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.9955"
+			(at 44.57 96.57715 90)
+			(layer "Dwgs.User")
+			(uuid "e7156614-9e4e-4029-b9d5-7a0e843e4bd8")
 			(effects
 				(font
 					(size 1 1)

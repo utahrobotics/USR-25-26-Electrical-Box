@@ -1739,126 +1739,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USR:JST-XA_3-PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 5.08 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "~"
-				(at 5.08 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "USR:JST-XA 3-PIN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST-XA_3-PIN_0_1"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 3.81 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "JST-XA_3-PIN_1_1"
-				(pin input line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "USR:SC0918"
 			(pin_names
 				(offset 1.016)
@@ -2921,119 +2801,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "5V Power supply from PDB"
+	(text "connecting TX -> RX ; RX -> TX"
 		(exclude_from_sim no)
-		(at 36.068 49.784 0)
+		(at 334.01 144.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3c545598-b977-40b0-bf9a-be0c14369be7")
+		(uuid "122b3102-3e3b-4d6d-ae3e-6cee840ac73f")
 	)
-	(text "List of stuff going on here:\n	- multiplexor (CD74HCx4067)\n	- ADC chip\n	- 2nd Pico\n	- slot connector to backplane\n	- 5V power input\n	- input headers for connecting sensors to the analog board\n	- include level shifter for the HE sensors from the PDB"
+	(text "use JST headers for the analog headers to get the analog inputs onto the board	\n	- Consider each analog input to be one cable/connection in the JST connector\n	  (i.e. if we have a 4-pin JST: aInput1 (1), aInput2 (20, ... etc)\n	- get angled JST connectors"
+		(exclude_from_sim no)
+		(at 251.46 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c043575-4eea-40ab-a887-c5747cfe7373")
+	)
+	(text "2rows, 1x20 : 2.54mm pin spacing"
+		(exclude_from_sim no)
+		(at 331.47 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f600aa5-6306-41ca-aed4-8aedca9e8289")
+	)
+	(text "look into the analog ground for the chip\n"
+		(exclude_from_sim no)
+		(at 299.974 209.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69e0bc8f-332e-4d48-b018-8c7cec6c34dd")
+	)
+	(text "List of stuff going on here:\n	- multiplexor (CD74HCx4067)	\n	- 2nd Pico\n	- slot connector to backplane	\n	- input headers for connecting sensors to the analog board\n	- include level shifter for the HE sensors from the PDB (will go \n	  before the multiplexer"
 		(exclude_from_sim no)
 		(at 19.304 27.178 0)
 		(effects
@@ -3044,6 +2854,26 @@
 		)
 		(uuid "71428b87-1b6d-4f00-9444-4a528840b734")
 	)
+	(text "UART pins 16,17"
+		(exclude_from_sim no)
+		(at 328.676 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cac5fca-1a97-46d1-b34e-e2c5d7b5df2a")
+	)
+	(text "use the same pin numbers for the multiplexer pins on the sheet"
+		(exclude_from_sim no)
+		(at 342.9 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e873991-b38d-4431-9943-3cef190db4aa")
+	)
 	(text "Peter Burt"
 		(exclude_from_sim no)
 		(at 306.07 266.446 0)
@@ -3053,6 +2883,27 @@
 			)
 		)
 		(uuid "8c58e3ce-f9a4-4876-bc7c-4caccaf725f5")
+	)
+	(text "analog inputs:\n	- load cell\n	- load cell\n	- load cell\n	- load cell\n	- LA feedback\n	- LA feedback\n	- LA feedback\n	- HE sensor (PDB)\n	- HE sensor (PDB)\n	...\n	- What else?"
+		(exclude_from_sim no)
+		(at 149.098 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a99c583e-cb07-47e9-b6b0-96d5dc0227d9")
+	)
+	(text "ambient temp. thermistor (consider this)"
+		(exclude_from_sim no)
+		(at 139.954 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bbfb7569-8df0-4781-9d1b-fc510406386c")
 	)
 	(text "Backplane edge connector"
 		(exclude_from_sim no)
@@ -3074,6 +2925,16 @@
 		)
 		(uuid "c4e9bc9b-aa88-4867-9ebf-2aae04df2dec")
 	)
+	(text "check if I have RX and TX\nconnected correctly"
+		(exclude_from_sim no)
+		(at 252.73 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c54280b1-e7fa-49d3-adb5-d4d5e606347e")
+	)
 	(text "multiplexer\n"
 		(exclude_from_sim no)
 		(at 170.434 139.954 0)
@@ -3083,6 +2944,17 @@
 			)
 		)
 		(uuid "c7130fcc-5204-4b95-8e9b-53556e6643b4")
+	)
+	(text "double check if S2 and S3 \nare on the right pins\n"
+		(exclude_from_sim no)
+		(at 159.004 208.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9ef8221-4d21-4ca9-b9d8-e4ba587cd1c6")
 	)
 	(text "USR Analog Board"
 		(exclude_from_sim no)
@@ -3104,7 +2976,7 @@
 		)
 		(uuid "f9d54e65-140b-4edf-828e-f018b13062f9")
 	)
-	(text "Questions:\n	- What signals do we need to digitize\n		- possibly look at [connector flow] spreadsheet?\n	- do we want to send the analog signals straight to the multiplexer\n	  then from the multiplexer to the edge connector? Or do we want it\n	  to go through the pico first\n	- where do we want the pico connected?\n	- what connections on the backplane pinnout correspond to the pico\n	  on the analog board?"
+	(text "Questions:\n	- What analog inputs are coming in\n	- where do we want the pico connected?\n	- what connections on the backplane pinnout correspond to the pico\n	  on the analog board?\n			- Pico (analog) is just connected to the UART connection on the backplane"
 		(exclude_from_sim no)
 		(at 113.284 28.448 0)
 		(effects
@@ -3115,93 +2987,13 @@
 		)
 		(uuid "fcb9b707-a8a7-463e-9472-90c57978420c")
 	)
-	(junction
-		(at 25.4 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc9038a9-a066-412c-ab24-fad9d8f6d29d")
-	)
 	(no_connect
 		(at 149.86 196.85)
 		(uuid "50e970bc-2c01-486a-b6e7-cec7a947bd3c")
 	)
 	(no_connect
-		(at 149.86 194.31)
-		(uuid "55747b42-2e12-4f79-9dcd-48e41bbc65dd")
-	)
-	(no_connect
 		(at 149.86 214.63)
 		(uuid "6a9d90a2-f564-449a-9ede-c6b79efa3366")
-	)
-	(wire
-		(pts
-			(xy 27.94 63.5) (xy 27.94 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438e4046-ab1f-4717-800f-36ee7d01cb3d")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 19.05 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7168cc96-f9c2-47e4-8f92-0587192f3d8b")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 25.4 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a46ba0ac-1ba1-41a3-a4d4-c30bc8081654")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 30.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59b82d3-3e47-4fb7-a6b8-526427eb9353")
-	)
-	(wire
-		(pts
-			(xy 19.05 67.31) (xy 19.05 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6beb10-ad72-45d6-b15e-e66270bdfb16")
-	)
-	(wire
-		(pts
-			(xy 25.4 63.5) (xy 25.4 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc7fbf37-e8b6-47e9-ae85-b4a9c867292b")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 30.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0270e7-362e-44f3-8c6d-c08b75741462")
 	)
 	(global_label "M3_CS"
 		(shape input)
@@ -3216,6 +3008,50 @@
 		(uuid "01b34309-9eff-49f6-b6a6-f805fb087e57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.7668 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1_THERM"
+		(shape input)
+		(at 149.86 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07baff38-3245-4477-b888-cbdfbe2fd398")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOADCELL_3"
+		(shape input)
+		(at 149.86 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0975b5b5-bb9c-4024-8496-a8d8841fe097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5053 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,6 +3105,28 @@
 			)
 		)
 	)
+	(global_label "AMB_THERM"
+		(shape input)
+		(at 149.86 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b65ba1b-02c7-4707-8b50-1cdc4f342999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.9287 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 278.13 214.63 0)
@@ -3309,6 +3167,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M2_THERM"
+		(shape input)
+		(at 149.86 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ff96f25-1997-4050-841c-ac5ebee14150")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3379,28 +3259,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 27.94 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a8bc7da-860d-4cbf-a22e-fca1acc97d36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 78.9433 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M1_CS"
 		(shape input)
 		(at 149.86 158.75 180)
@@ -3419,6 +3277,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 278.13 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46dc23a3-d09a-4bf0-ac65-bb3c5b3aa223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.219 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3445,9 +3325,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "DRIVE2_HE"
 		(shape input)
-		(at 25.4 73.66 270)
+		(at 149.86 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3455,9 +3335,31 @@
 			)
 			(justify right)
 		)
-		(uuid "525a9728-6d3e-4d9f-94a7-a8fb137e58d6")
+		(uuid "52f28929-8c85-4297-ae47-cea778640b33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 80.5157 90)
+			(at 136.8358 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOADCELL_1"
+		(shape input)
+		(at 149.86 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e4342ce-3823-47bb-b2d1-2ea8738d2dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5053 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,6 +3391,28 @@
 			)
 		)
 	)
+	(global_label "DRIVE1_HE"
+		(shape input)
+		(at 149.86 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f94c9d9-5843-4b6a-a681-cb28120795ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8358 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 149.86 153.67 180)
@@ -3502,6 +3426,50 @@
 		(uuid "5fb0e55a-e672-4f46-8cc7-221752f168d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.5767 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_out"
+		(shape input)
+		(at 278.13 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67f28865-011d-4444-8f38-2103364eff3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.0979 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S1"
+		(shape input)
+		(at 149.86 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6be4d63d-44e6-4a15-aa07-1d7536adc2f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4968 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,6 +3563,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOADCELL_2"
+		(shape input)
+		(at 149.86 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bfcae21-2018-4a0f-965d-46fde991e4b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5053 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 54.61 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "831054e6-422a-4c9c-96b8-221c39bc4410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.8234 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3775,6 +3787,28 @@
 			)
 		)
 	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 54.61 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9e1a356-bc32-4f0e-8e8d-e6b021b09145")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.521 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 278.13 217.17 0)
@@ -3793,6 +3827,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S0"
+		(shape input)
+		(at 149.86 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4691c57-c340-417a-9c94-7bbd37f7bf30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4968 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3841,6 +3897,28 @@
 			)
 		)
 	)
+	(global_label "LOADCELL_4"
+		(shape input)
+		(at 149.86 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd7ad9e2-6781-4191-ae46-22ddc717fe52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.5053 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 91.44 168.91 0)
@@ -3854,6 +3932,28 @@
 		(uuid "ce62af38-8e8a-4638-a048-518b3b9dbf4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.2957 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_out"
+		(shape input)
+		(at 190.5 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf34032c-a080-4961-9667-47f7c4edafa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.4679 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,6 +4007,28 @@
 			)
 		)
 	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 227.33 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d897143d-eba3-4184-a789-3dd7dc2dec10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.5434 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M3_CS"
 		(shape input)
 		(at 91.44 163.83 0)
@@ -3929,6 +4051,28 @@
 			)
 		)
 	)
+	(global_label "M3_THERM"
+		(shape input)
+		(at 149.86 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9d84601-5bf8-486f-a621-d3a054a7e865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M2_CS"
 		(shape input)
 		(at 149.86 161.29 180)
@@ -3942,6 +4086,28 @@
 		(uuid "f109ed6f-6416-44c4-8a6b-8f05d7046b93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.7668 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M4_THERM"
+		(shape input)
+		(at 149.86 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7a38230-21f0-4e6c-a4be-f2c997318a9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_LongPads"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 252.73 163.83 0)
 			(effects
 				(font
@@ -4592,145 +4758,6 @@
 			(project ""
 				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "USR:JST-XA_3-PIN")
-		(at 27.94 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae452f8c-ff00-407e-a3d7-cd8ed4f03c1a")
-		(property "Reference" "U1"
-			(at 33.02 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 33.02 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "USR:JST-XA 3-PIN"
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1146b3f-05fd-4f26-9b17-44cb91951504")
-		)
-		(pin "1"
-			(uuid "85d4c3ac-fd81-4529-b5c2-1ed1a3efe433")
-		)
-		(pin "3"
-			(uuid "da360e31-7294-4a1a-aac1-7d845adac3c9")
-		)
-		(instances
-			(project ""
-				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d976925c-d9af-4ac3-a25a-dc75e6a70765")
-		(property "Reference" "#PWR01"
-			(at 19.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58656000-345b-4766-8ad7-6cb4a8a0671c")
-		)
-		(instances
-			(project ""
-				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

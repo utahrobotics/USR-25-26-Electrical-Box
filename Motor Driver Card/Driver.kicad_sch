@@ -726,60 +726,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -11.43 90)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -11.43 90)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 15.24 7.62 180)
 					(length 2.54)
@@ -816,7 +762,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 -3.81 180)
 					(length 2.54)
 					(name "VIN"
@@ -834,7 +780,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 -7.62 180)
 					(length 2.54)
 					(name "GND"
@@ -1089,6 +1035,12 @@
 		(uuid "527ca4c4-00a7-4b47-8b26-1ad0e8b43e3b")
 	)
 	(junction
+		(at 74.93 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61156929-15b7-4c5d-8c7d-0016bdfdfc17")
+	)
+	(junction
 		(at 106.68 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1101,10 +1053,6 @@
 		(uuid "bca44d8e-9afd-4fd3-84bc-717a0aa62626")
 	)
 	(no_connect
-		(at 97.79 91.44)
-		(uuid "17111e5c-daec-494c-b17d-1ab27a1a897e")
-	)
-	(no_connect
 		(at 87.63 87.63)
 		(uuid "1f3bad48-3da8-4114-b385-2d1917126b29")
 	)
@@ -1115,18 +1063,6 @@
 	(no_connect
 		(at 87.63 85.09)
 		(uuid "217c9bf8-b145-4120-8156-f7b34a95f211")
-	)
-	(no_connect
-		(at 107.95 91.44)
-		(uuid "649fc10c-7083-439e-a9d8-c68851eadfef")
-	)
-	(no_connect
-		(at 87.63 77.47)
-		(uuid "a79d92e5-9e3f-469c-8abb-63aacad2b502")
-	)
-	(no_connect
-		(at 102.87 91.44)
-		(uuid "c3ca7bfb-5b41-45fb-aadf-208f584584f2")
 	)
 	(no_connect
 		(at 118.11 72.39)
@@ -1171,6 +1107,16 @@
 			(type default)
 		)
 		(uuid "15de7c69-869b-4e36-81d5-c55b8d9cfc0c")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3fde52-0cef-4b10-9ad1-77b1307c573f")
 	)
 	(wire
 		(pts
@@ -1294,6 +1240,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 80.01) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96584b60-a935-40a9-8d23-f6e9af18575d")
+	)
+	(wire
+		(pts
 			(xy 97.79 124.46) (xy 99.06 124.46)
 		)
 		(stroke
@@ -1321,16 +1277,6 @@
 			(type default)
 		)
 		(uuid "aa72179d-fb5a-4251-8989-f406fbc2df92")
-	)
-	(wire
-		(pts
-			(xy 74.93 80.01) (xy 87.63 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5dea29-83cb-43c6-a84e-6ed06c5fce82")
 	)
 	(wire
 		(pts
@@ -1382,6 +1328,17 @@
 		)
 		(uuid "ef403007-5a0a-425b-bc57-e0a5f5a2f4e1")
 	)
+	(hierarchical_label "SLP"
+		(shape input)
+		(at 87.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09f27f33-fdb0-4ebd-9ad2-85a5aaf8a8b3")
+	)
 	(hierarchical_label "CS"
 		(shape output)
 		(at 87.63 82.55 180)
@@ -1414,6 +1371,17 @@
 			(justify right)
 		)
 		(uuid "70a3ddef-6821-4028-9c6d-21b1712f8bcf")
+	)
+	(hierarchical_label "FLT"
+		(shape output)
+		(at 72.39 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dc697a0-c2a0-43d4-931d-5586192f589b")
 	)
 	(rule_area
 		(polyline
@@ -2385,12 +2353,6 @@
 		(pin "3"
 			(uuid "fa3edf43-7561-4eb9-8789-45b488b1d689")
 		)
-		(pin "6"
-			(uuid "2e291cdf-1626-448e-a7f0-a3fd00281ec0")
-		)
-		(pin "7"
-			(uuid "e8bc989f-8868-4b50-8649-78067e9d1694")
-		)
 		(pin "2"
 			(uuid "e4a71a2e-f3f7-4f2c-b33e-362576f21991")
 		)
@@ -2399,9 +2361,6 @@
 		)
 		(pin "1"
 			(uuid "641636c0-a788-472f-93b6-0f6664244fb3")
-		)
-		(pin "14"
-			(uuid "d2509bb9-07c3-47ac-b8d9-987b0fe7e3aa")
 		)
 		(pin "12"
 			(uuid "a2d663d6-4395-4fa0-9496-8c8d142166fa")

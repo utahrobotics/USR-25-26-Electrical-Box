@@ -526,7 +526,12 @@
         "24V"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

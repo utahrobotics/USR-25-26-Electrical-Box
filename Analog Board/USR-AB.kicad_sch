@@ -1739,6 +1739,536 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USR:JST-XA 4-PIN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "USR:JST-XA 4-PIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST-XA 4-PIN_0_1"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JST-XA 4-PIN_1_1"
+				(pin input line
+					(at -3.81 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "USR:JST-XH (5-pin_RA)"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S5B-XH-A_LF__SN_"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "USR:JST-XH 5-PIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5-pin JST-XH right angle connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "JST Sales"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "27-1-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "S5B-XH-A(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole, Right Angle 5 position 0.098 (2.50mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST Sales"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "JST-XH (5-pin_RA)_0_0"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 4.7625)
+					(end 0.9525 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 2.2225)
+					(end 0.9525 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -0.3175)
+					(end 0.9525 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -2.8575)
+					(end 0.9525 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.635 -5.3975)
+					(end 0.9525 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USR:SC0918"
 			(pin_names
 				(offset 1.016)
@@ -2814,7 +3344,7 @@
 	)
 	(text "use JST headers for the analog headers to get the analog inputs onto the board	\n	- Consider each analog input to be one cable/connection in the JST connector\n	  (i.e. if we have a 4-pin JST: aInput1 (1), aInput2 (20, ... etc)\n	- get angled JST connectors"
 		(exclude_from_sim no)
-		(at 251.46 43.434 0)
+		(at 247.396 23.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2833,15 +3363,16 @@
 		)
 		(uuid "3f600aa5-6306-41ca-aed4-8aedca9e8289")
 	)
-	(text "look into the analog ground for the chip\n"
+	(text "(Look at PICO pinout for what these mean)\nSPIO SCK: CLK\nSPIO TX: Din\nSPIO RX: Dout\nSPIO CSn: CS\n"
 		(exclude_from_sim no)
-		(at 299.974 209.296 0)
+		(at 290.322 182.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "69e0bc8f-332e-4d48-b018-8c7cec6c34dd")
+		(uuid "6ca7251f-7df5-4495-bdc4-e34490fc9afc")
 	)
 	(text "List of stuff going on here:\n	- multiplexor (CD74HCx4067)	\n	- 2nd Pico\n	- slot connector to backplane	\n	- input headers for connecting sensors to the analog board\n	- include level shifter for the HE sensors from the PDB (will go \n	  before the multiplexer"
 		(exclude_from_sim no)
@@ -2864,15 +3395,15 @@
 		)
 		(uuid "7cac5fca-1a97-46d1-b34e-e2c5d7b5df2a")
 	)
-	(text "use the same pin numbers for the multiplexer pins on the sheet"
+	(text "PDB HE sensors"
 		(exclude_from_sim no)
-		(at 342.9 120.904 0)
+		(at 171.958 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7e873991-b38d-4431-9943-3cef190db4aa")
+		(uuid "809d610d-83c5-49dd-bc68-e609aadd302b")
 	)
 	(text "Peter Burt"
 		(exclude_from_sim no)
@@ -2886,7 +3417,7 @@
 	)
 	(text "potentially add input headers for digital feedback inputs \n	- could probably route these straight to the pico"
 		(exclude_from_sim no)
-		(at 119.634 106.68 0)
+		(at 117.348 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,16 +3425,15 @@
 		)
 		(uuid "9ac706ca-d1f6-4645-9bc6-f183b504e12d")
 	)
-	(text "analog inputs:\n	- load cell\n	- load cell\n	- load cell\n	- load cell\n	- LA feedback\n	- LA feedback\n	- LA feedback\n	- HE sensor (PDB)\n	- HE sensor (PDB)\n	...\n	- What else?"
+	(text "Unused MUX \nconnections"
 		(exclude_from_sim no)
-		(at 86.868 87.63 0)
+		(at 140.208 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "a99c583e-cb07-47e9-b6b0-96d5dc0227d9")
+		(uuid "abc1f3a5-d385-4756-b0a2-e401b61e9729")
 	)
 	(text "Backplane edge connector"
 		(exclude_from_sim no)
@@ -2965,28 +3495,9 @@
 		)
 		(uuid "f9d54e65-140b-4edf-828e-f018b13062f9")
 	)
-	(text "Questions:\n	- What analog inputs are coming in\n	- where do we want the pico connected?\n	- what connections on the backplane pinnout correspond to the pico\n	  on the analog board?\n			- Pico (analog) is just connected to the UART connection on the backplane"
-		(exclude_from_sim no)
-		(at 113.284 28.448 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcb9b707-a8a7-463e-9472-90c57978420c")
-	)
-	(no_connect
-		(at 149.86 196.85)
-		(uuid "50e970bc-2c01-486a-b6e7-cec7a947bd3c")
-	)
 	(no_connect
 		(at 149.86 214.63)
 		(uuid "6a9d90a2-f564-449a-9ede-c6b79efa3366")
-	)
-	(no_connect
-		(at 374.65 52.07)
-		(uuid "a56da0a5-497f-4f66-9497-f2baa3332e0d")
 	)
 	(global_label "M3_CS"
 		(shape input)
@@ -3001,50 +3512,6 @@
 		(uuid "01b34309-9eff-49f6-b6a6-f805fb087e57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.7668 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M1_THERM"
-		(shape input)
-		(at 149.86 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07baff38-3245-4477-b888-cbdfbe2fd398")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0778 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LOADCELL_3"
-		(shape input)
-		(at 149.86 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0975b5b5-bb9c-4024-8496-a8d8841fe097")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5053 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,28 +3587,6 @@
 			)
 		)
 	)
-	(global_label "AMB_THERM"
-		(shape input)
-		(at 149.86 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b65ba1b-02c7-4707-8b50-1cdc4f342999")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9287 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 278.13 214.63 0)
@@ -3186,28 +3631,6 @@
 			)
 		)
 	)
-	(global_label "M2_THERM"
-		(shape input)
-		(at 149.86 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ff96f25-1997-4050-841c-ac5ebee14150")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0778 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 54.61 163.83 180)
@@ -3230,6 +3653,94 @@
 			)
 		)
 	)
+	(global_label "Din"
+		(shape input)
+		(at 167.64 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22ec4565-716b-4c9c-9e41-ddcbe0b8572a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 112.689 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M2_THERM"
+		(shape input)
+		(at 149.86 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24163e93-df0a-4416-b15c-4f81f2bd9b6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 172.72 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26f5bcc1-00b2-4f62-90ab-0b6c0b6a18c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 113.2333 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M3_THERM"
+		(shape input)
+		(at 119.38 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30bd3d81-fad7-4b0f-8b07-d3a753b2c01d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 122.0022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 54.61 179.07 180)
@@ -3243,6 +3754,50 @@
 		(uuid "31f0d85b-bf68-4546-8dea-3d0ecf617912")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.7543 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE1_HE"
+		(shape input)
+		(at 91.44 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32a8f4d6-c2d9-47fc-b781-c1d82545adba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.4642 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M4_THERM"
+		(shape input)
+		(at 121.92 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37543adc-d346-4165-b003-d1a29553eb26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 122.0022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,24 +3851,46 @@
 			)
 		)
 	)
-	(global_label "UART_RX"
+	(global_label "M2_THERM"
 		(shape input)
-		(at 278.13 143.51 0)
+		(at 116.84 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "46dc23a3-d09a-4bf0-ac65-bb3c5b3aa223")
+		(uuid "3f12d9ad-c1e8-4baf-a9e1-9298036392bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.219 143.51 0)
+			(at 116.84 122.0022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M4_THERM"
+		(shape input)
+		(at 149.86 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40dec457-b29c-4d91-b091-b9a0242d0c7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3340,9 +3917,9 @@
 			)
 		)
 	)
-	(global_label "DRIVE2_HE"
+	(global_label "M1_THERM"
 		(shape input)
-		(at 149.86 191.77 180)
+		(at 114.3 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3350,9 +3927,9 @@
 			)
 			(justify right)
 		)
-		(uuid "52f28929-8c85-4297-ae47-cea778640b33")
+		(uuid "4e6a9f7e-9642-4a74-93d2-ea37ff9304ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 191.77 0)
+			(at 114.3 122.0022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,9 +3939,9 @@
 			)
 		)
 	)
-	(global_label "LOADCELL_1"
+	(global_label "Connection_3"
 		(shape input)
-		(at 149.86 168.91 180)
+		(at 139.7 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3372,9 +3949,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5e4342ce-3823-47bb-b2d1-2ea8738d2dad")
+		(uuid "5bad8155-facb-4461-90b1-445e2d0ba8e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5053 168.91 0)
+			(at 139.7 124.905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,28 +3983,6 @@
 			)
 		)
 	)
-	(global_label "DRIVE1_HE"
-		(shape input)
-		(at 149.86 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f94c9d9-5843-4b6a-a681-cb28120795ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 149.86 153.67 180)
@@ -3441,6 +3996,28 @@
 		(uuid "5fb0e55a-e672-4f46-8cc7-221752f168d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.5767 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMB_THERM"
+		(shape input)
+		(at 124.46 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60dc3ead-032b-420f-999a-04032ca65609")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 123.1513 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,6 +4062,50 @@
 		(uuid "6be4d63d-44e6-4a15-aa07-1d7536adc2f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.4968 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX-(host)"
+		(shape input)
+		(at 278.13 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6be56e14-4608-4873-8c68-21134103ca6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.2342 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M3_THERM"
+		(shape input)
+		(at 149.86 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c313e72-2160-4494-8b3d-37b27301e935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,28 +4203,6 @@
 			)
 		)
 	)
-	(global_label "LOADCELL_2"
-		(shape input)
-		(at 149.86 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bfcae21-2018-4a0f-965d-46fde991e4b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5053 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_TX"
 		(shape input)
 		(at 54.61 151.13 180)
@@ -3692,6 +4291,28 @@
 			)
 		)
 	)
+	(global_label "DRIVE2_HE"
+		(shape input)
+		(at 149.86 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ab4ee58-d747-490f-a33c-e4c0bbcfde0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8358 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 190.5 214.63 0)
@@ -3736,6 +4357,50 @@
 			)
 		)
 	)
+	(global_label "Dout"
+		(shape input)
+		(at 170.18 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91680d6c-7c5d-4d4a-ad81-1fcb87f04ccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 113.9589 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 278.13 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b9b7a9-2c61-40ad-9083-77184ef50513")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.9857 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 54.61 156.21 180)
@@ -3749,6 +4414,50 @@
 		(uuid "931685c6-4698-49cd-8343-c64a7dac9aa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.7543 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX-(host)"
+		(shape input)
+		(at 227.33 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "937b4c0e-1117-4aa2-bd0e-933150e33f17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.9234 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1_THERM"
+		(shape input)
+		(at 149.86 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98acb6c3-54ed-4569-b3ce-73b2cff2474f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.0778 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,6 +4485,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMB_THERM"
+		(shape input)
+		(at 149.86 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a71418a-4ddd-4958-88eb-97407c9cb155")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.9287 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3868,6 +4599,28 @@
 			)
 		)
 	)
+	(global_label "Connection_2"
+		(shape input)
+		(at 149.86 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1c4f59a-9d9e-4fbb-a0ed-e6a61dc21e19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.175 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M4_CS"
 		(shape input)
 		(at 149.86 166.37 180)
@@ -3890,6 +4643,72 @@
 			)
 		)
 	)
+	(global_label "Connection_2"
+		(shape input)
+		(at 137.16 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2a4417e-dc55-4847-b0b4-1e128a748837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 124.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Connection_3"
+		(shape input)
+		(at 149.86 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b382cb97-8528-4e27-93d0-7ae30cfcbb56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.175 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Connection_1"
+		(shape input)
+		(at 134.62 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b817d782-215c-401a-9516-0f0ae28a0179")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 124.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_RX"
 		(shape input)
 		(at 54.61 153.67 180)
@@ -3903,6 +4722,28 @@
 		(uuid "b9e1a356-bc32-4f0e-8e8d-e6b021b09145")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.521 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Connection_1"
+		(shape input)
+		(at 149.86 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1511e41-4790-4eda-9709-1fca50c3bab7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.175 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,28 +4841,6 @@
 			)
 		)
 	)
-	(global_label "LOADCELL_4"
-		(shape input)
-		(at 149.86 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd7ad9e2-6781-4191-ae46-22ddc717fe52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5053 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 91.44 168.91 0)
@@ -4062,6 +4881,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 175.26 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d01e7a33-232d-4e90-8e2b-c8a77e461c1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 112.1447 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4132,9 +4973,9 @@
 			)
 		)
 	)
-	(global_label "UART_TX"
+	(global_label "Connection_4"
 		(shape input)
-		(at 227.33 173.99 180)
+		(at 142.24 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4142,9 +4983,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d897143d-eba3-4184-a789-3dd7dc2dec10")
+		(uuid "db15d967-56a4-404b-96c2-617ce2d42483")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.5434 173.99 0)
+			(at 142.24 124.905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,9 +5017,9 @@
 			)
 		)
 	)
-	(global_label "M3_THERM"
+	(global_label "Connection_5"
 		(shape input)
-		(at 149.86 184.15 180)
+		(at 149.86 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4186,9 +5027,53 @@
 			)
 			(justify right)
 		)
-		(uuid "e9d84601-5bf8-486f-a621-d3a054a7e865")
+		(uuid "e8b64fe9-9f9b-45da-9ea8-a063df50aefa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0778 184.15 0)
+			(at 134.175 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE1_HE"
+		(shape input)
+		(at 149.86 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e94ce392-b7b4-415d-9dde-2c0e56544b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8358 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Connection_5"
+		(shape input)
+		(at 144.78 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2afa4a-6fbf-49fa-8fd8-ce0433be57e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 124.905 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,9 +5105,31 @@
 			)
 		)
 	)
-	(global_label "M4_THERM"
+	(global_label "DRIVE2_HE"
 		(shape input)
-		(at 149.86 186.69 180)
+		(at 91.44 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f672e89c-3f8d-4f45-928c-3328695b14d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.4642 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Connection_4"
+		(shape input)
+		(at 149.86 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4230,15 +5137,216 @@
 			)
 			(justify right)
 		)
-		(uuid "f7a38230-21f0-4e6c-a4be-f2c997318a9c")
+		(uuid "f98caf18-1112-47e1-88de-f49f41bced80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0778 186.69 0)
+			(at 134.175 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USR:JST-XH (5-pin_RA)")
+		(at 139.7 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192d1eb8-d093-4197-bd6a-0216075e5be2")
+		(property "Reference" "J3"
+			(at 148.59 99.6949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "S5B-XH-A_LF__SN_"
+			(at 148.59 102.2349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "USR:JST-XH 5-PIN"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5-pin JST-XH right angle connector"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=eda"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "27-1-20"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=snap"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S5B-XH-A(LF)(SN)"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 5 position 0.098 (2.50mm)"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "458d3a69-300f-498c-91a9-bf3f150a170e")
+		)
+		(pin "1"
+			(uuid "05d30cfc-1e11-4a5f-a08a-404b6381977c")
+		)
+		(pin "3"
+			(uuid "675a779e-b450-44fb-b2a5-88d30f23ddb3")
+		)
+		(pin "5"
+			(uuid "494f57fa-28f9-4cc8-a52e-a3d2ae721023")
+		)
+		(pin "4"
+			(uuid "4f212dfe-8bb5-4699-bac6-bee40edeeaa3")
+		)
+		(instances
+			(project ""
+				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
+					(reference "J3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4499,6 +5607,283 @@
 			(project ""
 				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USR:JST-XA 4-PIN")
+		(at 171.45 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed5fd6e-98f3-4e08-8639-9b3830dbf0db")
+		(property "Reference" "U1"
+			(at 177.8 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "USR:JST-XA 4-PIN"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dbe58f6d-d89f-4997-9157-473ec454676d")
+		)
+		(pin "1"
+			(uuid "35de87f9-2db1-413f-b96e-6a43d248fad9")
+		)
+		(pin "4"
+			(uuid "451e3707-7ae2-42ff-8d53-09152bdb7e4a")
+		)
+		(pin "2"
+			(uuid "8c4d3e95-cc6d-4a88-a58a-2113588c79c3")
+		)
+		(instances
+			(project ""
+				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USR:JST-XH (5-pin_RA)")
+		(at 119.38 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e2b67f-758c-4cfe-9a29-3b0d5852654b")
+		(property "Reference" "J2"
+			(at 128.27 99.6949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "S5B-XH-A_LF__SN_"
+			(at 128.27 102.2349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "USR:JST-XH 5-PIN"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5-pin JST-XH right angle connector"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=eda"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "27-1-20"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5B-XH-A(LF)(SN)/JST/view-part/?ref=snap"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S5B-XH-A(LF)(SN)"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 5 position 0.098 (2.50mm)"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales"
+			(at 119.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "be88e40c-7a96-4eb3-a946-1182ee283426")
+		)
+		(pin "1"
+			(uuid "c3530db7-e60a-406b-b16c-c96bd2614e51")
+		)
+		(pin "3"
+			(uuid "e6aad993-379d-4cf9-a810-95a09a344f24")
+		)
+		(pin "2"
+			(uuid "4a284da4-55dd-494e-9138-adcadf32d77d")
+		)
+		(pin "4"
+			(uuid "de954024-f674-4494-8315-8c024cb9243b")
+		)
+		(instances
+			(project ""
+				(path "/08fc82fb-454e-480f-a944-ad7b66725a36"
+					(reference "J2")
 					(unit 1)
 				)
 			)

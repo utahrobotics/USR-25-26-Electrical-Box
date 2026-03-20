@@ -231,7 +231,7 @@
 				(pin passive line
 					(at -16.51 -27.94 0)
 					(length 2.54)
-					(name "M1_HE1"
+					(name "M1_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,7 +249,7 @@
 				(pin passive line
 					(at -16.51 -30.48 0)
 					(length 2.54)
-					(name "M1_HE2"
+					(name "M1_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,7 +339,7 @@
 				(pin passive line
 					(at -16.51 -43.18 0)
 					(length 2.54)
-					(name "M2_HE1"
+					(name "M2_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,7 +357,7 @@
 				(pin passive line
 					(at -16.51 -45.72 0)
 					(length 2.54)
-					(name "M2_HE2"
+					(name "M2_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,7 +447,7 @@
 				(pin passive line
 					(at -16.51 -58.42 0)
 					(length 2.54)
-					(name "M3_HE1"
+					(name "M3_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -465,7 +465,7 @@
 				(pin passive line
 					(at -16.51 -60.96 0)
 					(length 2.54)
-					(name "ME_HE2"
+					(name "M3_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,7 +555,7 @@
 				(pin passive line
 					(at -16.51 -73.66 0)
 					(length 2.54)
-					(name "M4_HE1"
+					(name "M4_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,7 +573,7 @@
 				(pin passive line
 					(at -16.51 -76.2 0)
 					(length 2.54)
-					(name "M4_HE2"
+					(name "M4_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -771,7 +771,7 @@
 				(pin passive line
 					(at 20.32 -25.4 180)
 					(length 2.54)
-					(name "M1_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -789,7 +789,7 @@
 				(pin passive line
 					(at 20.32 -27.94 180)
 					(length 2.54)
-					(name "M2_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -807,7 +807,7 @@
 				(pin passive line
 					(at 20.32 -30.48 180)
 					(length 2.54)
-					(name "M3_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -825,7 +825,7 @@
 				(pin passive line
 					(at 20.32 -33.02 180)
 					(length 2.54)
-					(name "M4_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -843,7 +843,7 @@
 				(pin passive line
 					(at 20.32 -35.56 180)
 					(length 2.54)
-					(name "M1_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -861,7 +861,7 @@
 				(pin passive line
 					(at 20.32 -38.1 180)
 					(length 2.54)
-					(name "M2_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -879,7 +879,7 @@
 				(pin passive line
 					(at 20.32 -40.64 180)
 					(length 2.54)
-					(name "M3_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -897,7 +897,7 @@
 				(pin passive line
 					(at 20.32 -43.18 180)
 					(length 2.54)
-					(name "M4_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2884,9 +2884,19 @@
 		)
 		(uuid "8c58e3ce-f9a4-4876-bc7c-4caccaf725f5")
 	)
+	(text "potentially add input headers for digital feedback inputs \n	- could probably route these straight to the pico"
+		(exclude_from_sim no)
+		(at 119.634 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ac706ca-d1f6-4645-9bc6-f183b504e12d")
+	)
 	(text "analog inputs:\n	- load cell\n	- load cell\n	- load cell\n	- load cell\n	- LA feedback\n	- LA feedback\n	- LA feedback\n	- HE sensor (PDB)\n	- HE sensor (PDB)\n	...\n	- What else?"
 		(exclude_from_sim no)
-		(at 149.098 111.252 0)
+		(at 86.868 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,16 +2904,6 @@
 			(justify left)
 		)
 		(uuid "a99c583e-cb07-47e9-b6b0-96d5dc0227d9")
-	)
-	(text "ambient temp. thermistor (consider this)"
-		(exclude_from_sim no)
-		(at 139.954 71.374 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbfb7569-8df0-4781-9d1b-fc510406386c")
 	)
 	(text "Backplane edge connector"
 		(exclude_from_sim no)
@@ -2945,17 +2945,6 @@
 		)
 		(uuid "c7130fcc-5204-4b95-8e9b-53556e6643b4")
 	)
-	(text "double check if S2 and S3 \nare on the right pins\n"
-		(exclude_from_sim no)
-		(at 159.004 208.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9ef8221-4d21-4ca9-b9d8-e4ba587cd1c6")
-	)
 	(text "USR Analog Board"
 		(exclude_from_sim no)
 		(at 318.516 277.114 0)
@@ -2994,6 +2983,10 @@
 	(no_connect
 		(at 149.86 214.63)
 		(uuid "6a9d90a2-f564-449a-9ede-c6b79efa3366")
+	)
+	(no_connect
+		(at 374.65 52.07)
+		(uuid "a56da0a5-497f-4f66-9497-f2baa3332e0d")
 	)
 	(global_label "M3_CS"
 		(shape input)
@@ -3057,6 +3050,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S1"
+		(shape input)
+		(at 278.13 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f27b399-8ac9-4cb2-a81b-f2ba6e5e2a08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4932 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3611,6 +3626,72 @@
 			)
 		)
 	)
+	(global_label "MUX_S3"
+		(shape input)
+		(at 149.86 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83c26998-7222-4ff4-8411-18ac5a070747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4968 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S0"
+		(shape input)
+		(at 278.13 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "861f7848-e87f-4bc9-8657-65bcb70975eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4932 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S2"
+		(shape input)
+		(at 149.86 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86270431-477a-4eee-9eab-45c6628e5407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4968 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 190.5 214.63 0)
@@ -3673,6 +3754,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S3"
+		(shape input)
+		(at 278.13 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "992f05b9-98ca-4607-803b-4777b42dcc2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4932 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3981,6 +4084,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_S2"
+		(shape input)
+		(at 278.13 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d72776d1-65ae-4107-986a-ac6e1ee8b26b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.4932 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

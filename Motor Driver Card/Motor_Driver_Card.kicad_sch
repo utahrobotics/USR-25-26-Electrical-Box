@@ -236,7 +236,7 @@
 				(pin passive line
 					(at -16.51 -27.94 0)
 					(length 2.54)
-					(name "M1_HE1"
+					(name "M1_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -254,7 +254,7 @@
 				(pin passive line
 					(at -16.51 -30.48 0)
 					(length 2.54)
-					(name "M1_HE2"
+					(name "M1_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -344,7 +344,7 @@
 				(pin passive line
 					(at -16.51 -43.18 0)
 					(length 2.54)
-					(name "M2_HE1"
+					(name "M2_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,7 +362,7 @@
 				(pin passive line
 					(at -16.51 -45.72 0)
 					(length 2.54)
-					(name "M2_HE2"
+					(name "M2_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,7 +452,7 @@
 				(pin passive line
 					(at -16.51 -58.42 0)
 					(length 2.54)
-					(name "M3_HE1"
+					(name "M3_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,7 +470,7 @@
 				(pin passive line
 					(at -16.51 -60.96 0)
 					(length 2.54)
-					(name "ME_HE2"
+					(name "M3_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -560,7 +560,7 @@
 				(pin passive line
 					(at -16.51 -73.66 0)
 					(length 2.54)
-					(name "M4_HE1"
+					(name "M4_FLT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -578,7 +578,7 @@
 				(pin passive line
 					(at -16.51 -76.2 0)
 					(length 2.54)
-					(name "M4_HE2"
+					(name "M4_SLP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -776,7 +776,7 @@
 				(pin passive line
 					(at 20.32 -25.4 180)
 					(length 2.54)
-					(name "M1_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -794,7 +794,7 @@
 				(pin passive line
 					(at 20.32 -27.94 180)
 					(length 2.54)
-					(name "M2_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -812,7 +812,7 @@
 				(pin passive line
 					(at 20.32 -30.48 180)
 					(length 2.54)
-					(name "M3_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -830,7 +830,7 @@
 				(pin passive line
 					(at 20.32 -33.02 180)
 					(length 2.54)
-					(name "M4_FLT(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,7 +848,7 @@
 				(pin passive line
 					(at 20.32 -35.56 180)
 					(length 2.54)
-					(name "M1_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -866,7 +866,7 @@
 				(pin passive line
 					(at 20.32 -38.1 180)
 					(length 2.54)
-					(name "M2_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -884,7 +884,7 @@
 				(pin passive line
 					(at 20.32 -40.64 180)
 					(length 2.54)
-					(name "M3_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -902,7 +902,7 @@
 				(pin passive line
 					(at 20.32 -43.18 180)
 					(length 2.54)
-					(name "M4_SLP(?)"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1591,10 +1591,6 @@
 		(uuid "ef9c2ce9-0d57-4cbb-8043-40ba7d21a137")
 	)
 	(no_connect
-		(at 106.68 74.93)
-		(uuid "04347b35-8d24-495c-8932-bb49579cc087")
-	)
-	(no_connect
 		(at 143.51 115.57)
 		(uuid "068a90f0-028d-40f3-9458-2373df373285")
 	)
@@ -1603,8 +1599,8 @@
 		(uuid "068da165-554a-4c4a-9620-dc61c963d167")
 	)
 	(no_connect
-		(at 106.68 123.19)
-		(uuid "0e6d6789-6a62-4bff-859f-8fd57ccb3129")
+		(at 143.51 87.63)
+		(uuid "0f9cbd88-a81f-4894-ba14-f8606a68b54d")
 	)
 	(no_connect
 		(at 143.51 107.95)
@@ -1619,8 +1615,12 @@
 		(uuid "42678d3a-917d-4457-afee-8bf9f05420a6")
 	)
 	(no_connect
-		(at 106.68 120.65)
-		(uuid "4e8a47e5-0f47-47f5-9acc-e75833879f18")
+		(at 143.51 72.39)
+		(uuid "4ba9a628-46a8-4ccf-a944-ee7645d94cc9")
+	)
+	(no_connect
+		(at 143.51 90.17)
+		(uuid "5683c90a-bcf1-498e-82b5-837e6274ff76")
 	)
 	(no_connect
 		(at 106.68 59.69)
@@ -1635,8 +1635,12 @@
 		(uuid "64465a11-764b-4e8a-a780-bebd502ff511")
 	)
 	(no_connect
-		(at 106.68 105.41)
-		(uuid "64ddd9cd-5d87-4e3d-8fbe-7561e85054ac")
+		(at 143.51 77.47)
+		(uuid "7298295d-b3d6-478e-aa3b-db4682a58f3d")
+	)
+	(no_connect
+		(at 143.51 85.09)
+		(uuid "7d9b7aad-ad13-4a94-9c6c-339e682b5a1e")
 	)
 	(no_connect
 		(at 106.68 52.07)
@@ -1667,12 +1671,8 @@
 		(uuid "9fd71028-40bd-42b5-aff6-27a266ac7f02")
 	)
 	(no_connect
-		(at 106.68 90.17)
-		(uuid "bf23bf3e-edb5-477a-9815-262ec4f052aa")
-	)
-	(no_connect
-		(at 106.68 92.71)
-		(uuid "c20a7f2d-450f-4e58-8dcc-17c0a747b82f")
+		(at 143.51 82.55)
+		(uuid "a3356809-3720-4eac-b81e-c8ca577e8c16")
 	)
 	(no_connect
 		(at 143.51 118.11)
@@ -1683,16 +1683,12 @@
 		(uuid "c727c348-9326-48a4-8fd5-8b404ebbd473")
 	)
 	(no_connect
-		(at 106.68 77.47)
-		(uuid "dd6385c7-10b5-4147-93e4-6f3c09af7528")
+		(at 143.51 74.93)
+		(uuid "d7970192-8a24-4d3b-af90-3ae6a73236a8")
 	)
 	(no_connect
 		(at 143.51 52.07)
 		(uuid "e4b6397a-0f76-4308-b757-28285fa3a526")
-	)
-	(no_connect
-		(at 106.68 107.95)
-		(uuid "e78ccbc9-cc8c-454f-b11e-0d3b0e2aca0d")
 	)
 	(no_connect
 		(at 143.51 92.71)
@@ -1705,6 +1701,10 @@
 	(no_connect
 		(at 143.51 113.03)
 		(uuid "f1b1f591-32d5-486c-bb87-32e3bf8508b3")
+	)
+	(no_connect
+		(at 143.51 80.01)
+		(uuid "fe146058-52ac-4b16-8e8c-7132a0caf600")
 	)
 	(wire
 		(pts
@@ -2177,22 +2177,22 @@
 		(uuid "003ffc42-e07e-42c6-a6ba-c126e60e306c")
 	)
 	(label "FLT3"
-		(at 143.51 77.47 0)
+		(at 106.68 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "06d3a5d5-d05c-4866-bd09-b43bb77f6c37")
 	)
 	(label "SLP2"
-		(at 143.51 85.09 0)
+		(at 106.68 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0ccc79e3-3d5d-43b1-a7d9-c3dfd9e18cab")
 	)
@@ -2307,12 +2307,12 @@
 		(uuid "6e78f7ab-956d-4977-9ba6-4fb6d0c9dc2f")
 	)
 	(label "FLT4"
-		(at 143.51 80.01 0)
+		(at 106.68 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "788c6a91-f1ee-47d3-a147-f2ea16c871ca")
 	)
@@ -2397,12 +2397,12 @@
 		(uuid "9298a745-6f8f-4624-850f-e8a73d9e9ba1")
 	)
 	(label "FLT1"
-		(at 143.51 72.39 0)
+		(at 106.68 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "94726d1e-d088-4a4a-a962-525661c3acd2")
 	)
@@ -2417,12 +2417,12 @@
 		(uuid "96504091-dce6-4d12-82e5-16c0fea49bb2")
 	)
 	(label "SLP3"
-		(at 143.51 87.63 0)
+		(at 106.68 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "97ddc9d9-8a6f-405b-85fa-2c2761dad9a0")
 	)
@@ -2447,12 +2447,12 @@
 		(uuid "a6dd48d8-2769-40b9-af1e-39070d293d74")
 	)
 	(label "FLT2"
-		(at 143.51 74.93 0)
+		(at 106.68 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bcd74631-a469-40e9-89c8-6463e9e495e2")
 	)
@@ -2477,12 +2477,12 @@
 		(uuid "d184bf95-3a94-4273-8409-399454b85fe2")
 	)
 	(label "SLP1"
-		(at 143.51 82.55 0)
+		(at 106.68 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d3f69004-0e6b-47e3-a5dd-21c308fcce82")
 	)
@@ -2527,12 +2527,12 @@
 		(uuid "e39f09f7-c8d1-4068-849b-c9dd6d76c22c")
 	)
 	(label "SLP4"
-		(at 143.51 90.17 0)
+		(at 106.68 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ecd144f2-e8e9-46da-9372-079e6515a63c")
 	)

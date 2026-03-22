@@ -28857,7 +28857,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.9955"
+		(gr_text "25.2857"
 			(at 58.54 134.67715 90)
 			(layer "Dwgs.User")
 			(uuid "11a14ebf-5545-4860-9d27-9cd36da159cf")
@@ -28895,7 +28895,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4.7"
+		(gr_text "119.38"
 			(at 212.00985 87.63 90)
 			(layer "Dwgs.User")
 			(uuid "5328a5d3-1d2c-4361-b081-96dc1f89550d")
@@ -28933,10 +28933,48 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.3396"
+		(gr_text "59.4258"
 			(at 50.92 117.607075 90)
 			(layer "Dwgs.User")
 			(uuid "5d8cf051-39f5-4f86-a897-d9680f479fc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "dd7c9d86-6e3e-43d0-8c2e-ce91369f89c3")
+		(pts
+			(xy 64.91985 147.32) (xy 77.61985 155.575)
+		)
+		(height 15.24)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12.7"
+			(at 71.26985 161.41 0)
+			(layer "Dwgs.User")
+			(uuid "dd7c9d86-6e3e-43d0-8c2e-ce91369f89c3")
 			(effects
 				(font
 					(size 1 1)
@@ -28971,7 +29009,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3.9955"
+		(gr_text "101.4857"
 			(at 44.57 96.57715 90)
 			(layer "Dwgs.User")
 			(uuid "e7156614-9e4e-4029-b9d5-7a0e843e4bd8")
@@ -29009,7 +29047,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.375"
+		(gr_text "9.525"
 			(at 58.68985 152.0825 90)
 			(layer "Eco1.User")
 			(uuid "2f8be3f3-f466-49df-882d-0ebea9965c3a")
@@ -29047,7 +29085,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5.1"
+		(gr_text "129.54"
 			(at 129.68985 19.17 0)
 			(layer "Eco1.User")
 			(uuid "c89ead65-2533-46d6-af42-3b05e6cc83b8")

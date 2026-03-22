@@ -251,16 +251,6 @@
 		(layer "F.Fab")
 		(uuid "72cdbf5b-0eda-45d3-9349-145f441cb369")
 	)
-	(fp_line
-		(start 6.2 3.5)
-		(end 8.82 3.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8d167844-a96c-4623-95ae-ce63291313f5")
-	)
 	(fp_circle
 		(center -6.75 -5.7)
 		(end -6.65 -5.7)

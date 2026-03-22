@@ -1,6 +1,5 @@
 # --- KiCad main project files to ignore ---
 *.kicad_prl
-*.kicad_pro
 fp-info-cache
 
 # --- Temporary and Lock files ---

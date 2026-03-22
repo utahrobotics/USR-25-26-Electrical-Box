@@ -226,7 +226,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1612900|1308100|eab74b7b-1103-4f66-addc-7d51cd8e9b50|bf568256-a7c0-4002-a15e-52de77e22ee3|/089391b6-91b5-4005-8107-7302096419b1|/089391b6-91b5-4005-8107-7302096419b1|/089391b6-91b5-4005-8107-7302096419b1",
+        ""
+      ],
+      [
+        "pin_to_pin|1663700|571500|71a89270-b7cb-490b-99e8-bf81d10f8b90|04d8a3c8-4071-47b4-9d5f-3c1ff7992560|/089391b6-91b5-4005-8107-7302096419b1|/089391b6-91b5-4005-8107-7302096419b1|/089391b6-91b5-4005-8107-7302096419b1",
+        "As according to Pololu's datasheets, VIN is being bypassed, resulting in VDD3V3 being used as a power input instead."
+      ],
+      [
+        "power_pin_not_driven|1562100|571500|bdc42f66-37d0-4799-a46f-b0bca0ae9382|00000000-0000-0000-0000-000000000000|/089391b6-91b5-4005-8107-7302096419b1|/089391b6-91b5-4005-8107-7302096419b1|",
+        "5v powered both by the backplane and via USB on the pico itself"
+      ]
+    ],
     "meta": {
       "version": 0
     },

@@ -3491,7 +3491,7 @@
 			(layer "F.Fab")
 			(uuid "f17c1942-70cc-4b45-a108-f15d8b4035c1")
 		)
-		(fp_text user "Designator9"
+		(fp_text user "U9"
 			(at -4.191 -5.4102 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7360,10 +7360,10 @@
 	)
 	(gr_line
 		(start 50.96 145.5)
-		(end 44.96 145.5)
+		(end 38.26 145.5)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "64cf7d07-eacb-4b3f-80f8-1ce281add221")
@@ -7417,6 +7417,54 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e333ca91-3149-4fc1-94aa-775f14b97d05")
+	)
+	(gr_text "Therm Connections"
+		(at 118.5 85 0)
+		(layer "F.SilkS")
+		(uuid "0cb9b151-ac74-4634-befb-c0090d36c0cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PDB HE-sensors"
+		(at 81 84.5 0)
+		(layer "F.SilkS")
+		(uuid "1fae8b31-ef55-429a-907f-1881fbd0159b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Open Connections"
+		(at 98.55 84.803002 0)
+		(layer "F.SilkS")
+		(uuid "6a83ed06-6252-4618-bd84-28073de9f4a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PICO USB-side"
+		(at 55.5 83.5 0)
+		(layer "F.SilkS")
+		(uuid "b7dcb9aa-91f2-4eab-bedf-2377f973a295")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 98.516022 118.424998)

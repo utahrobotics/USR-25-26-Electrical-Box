@@ -3006,7 +3006,7 @@
 			(net 68 "Net-(M4-VIN)")
 			(pinfunction "VIN")
 			(pintype "power_out")
-			(uuid "49200bd3-2040-48cd-856d-b86628b55152")
+			(uuid "f7e3c100-3b7e-4de7-8eab-7c685a3ebe1d")
 		)
 		(pad "2" thru_hole circle
 			(at -15.24 -8.89 90)
@@ -3028,7 +3028,7 @@
 			(net 15 "Net-(D10-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "f748516a-ae10-4670-9bd1-b20d162c8939")
+			(uuid "e47fe0d7-ab9c-40c0-bab5-99f109ff0085")
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 -6.35 90)
@@ -3039,7 +3039,7 @@
 			(net 15 "Net-(D10-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "f748516a-ae10-4670-9bd1-b20d162c8939")
+			(uuid "cf7a098c-a350-44a2-bc49-274a11c2da78")
 		)
 		(pad "3" thru_hole circle
 			(at 12.7 1.27 90)
@@ -3061,7 +3061,7 @@
 			(net 102 "unconnected-(M4-OUTA-Pad3)_1")
 			(pinfunction "OUTA")
 			(pintype "power_out+no_connect")
-			(uuid "90c9c21b-8798-4376-95bb-917c2b67168b")
+			(uuid "72b4d5f4-9455-4f24-bc5f-de7b79d42f0f")
 		)
 		(pad "4" thru_hole circle
 			(at 12.7 -3.81 90)
@@ -3083,7 +3083,7 @@
 			(net 103 "unconnected-(M4-OUTB-Pad4)_1")
 			(pinfunction "OUTB")
 			(pintype "power_out+no_connect")
-			(uuid "f70c7272-640a-4fa7-93e0-358a1413de85")
+			(uuid "0e8e9002-71f0-4953-a423-a3fe4bfab4a9")
 		)
 		(pad "5" thru_hole circle
 			(at -15.24 8.89 90)
@@ -4279,7 +4279,7 @@
 			(net 59 "Net-(M2-VIN)")
 			(pinfunction "VIN")
 			(pintype "power_out")
-			(uuid "c48dece1-9883-4ae0-bb8d-b4aa7df7241b")
+			(uuid "269fedf5-ebea-43db-89e4-5ad93796e105")
 		)
 		(pad "2" thru_hole circle
 			(at -15.24 -8.89 90)
@@ -4301,7 +4301,7 @@
 			(net 6 "Net-(D4-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "97a4c462-f3ee-4fbb-aae5-4156f3ab6e0f")
+			(uuid "712068ce-a2de-4770-96a3-6edf2256907b")
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 -6.35 90)
@@ -4312,7 +4312,7 @@
 			(net 6 "Net-(D4-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "97a4c462-f3ee-4fbb-aae5-4156f3ab6e0f")
+			(uuid "3e2f9fb2-2f86-414e-91ba-db82ab54b5ea")
 		)
 		(pad "3" thru_hole circle
 			(at 12.7 1.27 90)
@@ -4334,7 +4334,7 @@
 			(net 99 "unconnected-(M2-OUTA-Pad3)_1")
 			(pinfunction "OUTA")
 			(pintype "power_out+no_connect")
-			(uuid "2cd497b4-796d-47fb-8804-f8d45cd11238")
+			(uuid "bd663e6c-83ca-4505-907f-802477c0963d")
 		)
 		(pad "4" thru_hole circle
 			(at 12.7 -3.81 90)
@@ -4356,7 +4356,7 @@
 			(net 98 "unconnected-(M2-OUTB-Pad4)_1")
 			(pinfunction "OUTB")
 			(pintype "power_out+no_connect")
-			(uuid "0125dd7e-1f36-4c06-beb7-66a184918a26")
+			(uuid "54f9ea79-6995-4d50-9227-4a258f87da18")
 		)
 		(pad "5" thru_hole circle
 			(at -15.24 8.89 90)
@@ -7904,7 +7904,7 @@
 			(net 56 "Net-(M1-VIN)")
 			(pinfunction "VIN")
 			(pintype "power_out")
-			(uuid "e939eff5-cc78-46ce-971a-b6249f33b3c3")
+			(uuid "52162f51-8b8b-49f1-a966-c8f32de90e54")
 		)
 		(pad "2" thru_hole circle
 			(at -15.24 -8.89 90)
@@ -7926,7 +7926,7 @@
 			(net 1 "Net-(D1-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "b3c4feb4-4f8b-4509-8f3e-282b4bc8c030")
+			(uuid "48a75cf2-4e15-4a13-8f19-50acc59b5066")
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 -6.35 90)
@@ -7937,7 +7937,7 @@
 			(net 1 "Net-(D1-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "b3c4feb4-4f8b-4509-8f3e-282b4bc8c030")
+			(uuid "2d07de95-07ab-449a-80a6-a7f6d96f19ea")
 		)
 		(pad "3" thru_hole circle
 			(at 12.7 1.27 90)
@@ -7959,7 +7959,7 @@
 			(net 58 "unconnected-(M1-OUTA-Pad3)")
 			(pinfunction "OUTA")
 			(pintype "power_out+no_connect")
-			(uuid "d16e0b9c-8fd3-4161-b94b-7133786c998d")
+			(uuid "8ab4011a-49ad-40a3-9a16-bfc4788e627d")
 		)
 		(pad "4" thru_hole circle
 			(at 12.7 -3.81 90)
@@ -7981,7 +7981,7 @@
 			(net 77 "unconnected-(M1-OUTB-Pad4)")
 			(pinfunction "OUTB")
 			(pintype "power_out+no_connect")
-			(uuid "accfeeea-db1e-423e-815c-8e4fc429f1cd")
+			(uuid "e9d5b431-0be0-4c2f-8de7-738fc2c3241f")
 		)
 		(pad "5" thru_hole circle
 			(at -15.24 8.89 90)
@@ -9638,7 +9638,7 @@
 			(net 64 "Net-(M3-VIN)")
 			(pinfunction "VIN")
 			(pintype "power_out")
-			(uuid "28543b93-2880-4cc6-a035-16d722bfc173")
+			(uuid "dc3fe0b4-e383-408c-9483-4395fdb9aad4")
 		)
 		(pad "2" thru_hole circle
 			(at -15.24 -8.89 90)
@@ -9660,7 +9660,7 @@
 			(net 11 "Net-(D7-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "a4594661-aa87-4aca-9c0c-ae1eee233f20")
+			(uuid "f6be6334-6c24-4a19-8310-dbb2bc225305")
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 -6.35 90)
@@ -9671,7 +9671,7 @@
 			(net 11 "Net-(D7-K)")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "a4594661-aa87-4aca-9c0c-ae1eee233f20")
+			(uuid "1fd68f58-263d-42d0-aad6-9c5a71395f37")
 		)
 		(pad "3" thru_hole circle
 			(at 12.7 1.27 90)
@@ -9693,7 +9693,7 @@
 			(net 100 "unconnected-(M3-OUTA-Pad3)_1")
 			(pinfunction "OUTA")
 			(pintype "power_out+no_connect")
-			(uuid "2122a509-569c-4640-84a4-c53edb42e1c2")
+			(uuid "0934d055-412a-45cd-9c98-e5af9dfbaaa4")
 		)
 		(pad "4" thru_hole circle
 			(at 12.7 -3.81 90)
@@ -9715,7 +9715,7 @@
 			(net 101 "unconnected-(M3-OUTB-Pad4)_1")
 			(pinfunction "OUTB")
 			(pintype "power_out+no_connect")
-			(uuid "32a00555-be98-472b-b06d-f8e43e8577fd")
+			(uuid "abff3929-0bb4-4227-bfab-2ca97d94eaff")
 		)
 		(pad "5" thru_hole circle
 			(at -15.24 8.89 90)
@@ -11302,8 +11302,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "2025 Motor Driver Board"
-		(at 141.9713 130.2214 -0)
+	(gr_text "2026 Motor Driver Board"
+		(at 141.9713 130.2214 0)
 		(layer "B.SilkS")
 		(uuid "0da4235a-d1f5-49c4-8020-bb588d431e84")
 		(effects
@@ -11341,7 +11341,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5100"
+		(gr_text "129.54"
 			(at 171.45 38.84 0)
 			(layer "F.Cu")
 			(uuid "7cb9ed66-9c41-4e5a-95a1-b57fc015e069")
@@ -11379,7 +11379,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3000"
+		(gr_text "76.2"
 			(at 252.2 92.71 90)
 			(layer "F.Cu")
 			(uuid "be81a187-49b2-48dd-b842-03c11789644f")

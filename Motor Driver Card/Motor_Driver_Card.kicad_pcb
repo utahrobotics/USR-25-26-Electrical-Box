@@ -9542,8 +9542,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "2025 Motor Driver Board\nJohnny G."
-		(at 110.0161 88.8522 -0)
+	(gr_text "2025 Motor Driver Board"
+		(at 110.0161 88.8522 0)
 		(layer "F.SilkS")
 		(uuid "0da4235a-d1f5-49c4-8020-bb588d431e84")
 		(effects
@@ -9735,18 +9735,6 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "JG\nMotor Driver Board 25-26"
-		(at 107.95 129.54 0)
-		(layer "B.SilkS")
-		(uuid "234b0f53-b25a-4b84-8b56-d1d843031ed7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify right bottom mirror)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "F.Cu")
@@ -9773,7 +9761,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "129.54"
+		(gr_text "5100"
 			(at 171.45 38.84 0)
 			(layer "F.Cu")
 			(uuid "7cb9ed66-9c41-4e5a-95a1-b57fc015e069")
@@ -9811,7 +9799,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "76.2"
+		(gr_text "3000"
 			(at 252.2 92.71 90)
 			(layer "F.Cu")
 			(uuid "be81a187-49b2-48dd-b842-03c11789644f")

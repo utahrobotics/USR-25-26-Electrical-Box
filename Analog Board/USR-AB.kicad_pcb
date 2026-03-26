@@ -8217,8 +8217,20 @@
 		(layer "Edge.Cuts")
 		(uuid "cd5604fc-8850-4c7d-a748-f8080b13cd76")
 	)
+	(gr_text "PICO USB-side"
+		(at 47.4 97.4 90)
+		(layer "F.SilkS")
+		(uuid "b7dcb9aa-91f2-4eab-bedf-2377f973a295")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PDB HE-sensors"
-		(at 78.175 104.1 0)
+		(at 77.8 100 90)
 		(layer "F.SilkS")
 		(uuid "1fae8b31-ef55-429a-907f-1881fbd0159b")
 		(effects
@@ -8229,8 +8241,56 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CS"
+		(at 82.4 102.6 90)
+		(layer "F.SilkS")
+		(uuid "4ffe1c00-9b3e-4be5-a875-c13e613983b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CLK"
+		(at 85 103.4 90)
+		(layer "F.SilkS")
+		(uuid "3d0ae8b1-f8b6-41f4-9287-26b087871e14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Dout"
+		(at 87.2 104 90)
+		(layer "F.SilkS")
+		(uuid "a64f4c0a-6e64-448f-9168-a2ce4420153e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Din"
+		(at 89.6 103 90)
+		(layer "F.SilkS")
+		(uuid "f2301ac1-8a7c-4f42-bb5a-018af4385c37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Open Connections"
-		(at 97.5 104 0)
+		(at 95.4 100.8 90)
 		(layer "F.SilkS")
 		(uuid "6a83ed06-6252-4618-bd84-28073de9f4a6")
 		(effects
@@ -8242,7 +8302,7 @@
 		)
 	)
 	(gr_text "Therm Connections"
-		(at 117 104.275 0)
+		(at 114.6 101 90)
 		(layer "F.SilkS")
 		(uuid "0cb9b151-ac74-4634-befb-c0090d36c0cc")
 		(effects
@@ -8253,10 +8313,58 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PICO USB-side"
-		(at 47.4 97.4 90)
+	(gr_text "Amb"
+		(at 118.4 104.4 90)
 		(layer "F.SilkS")
-		(uuid "b7dcb9aa-91f2-4eab-bedf-2377f973a295")
+		(uuid "a2f83ce3-f25d-451d-8045-6edcdb7ab849")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M4"
+		(at 121 103.6 90)
+		(layer "F.SilkS")
+		(uuid "a3f310ae-9053-4a39-8a7a-3a8c1d76ed77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M3"
+		(at 123.6 103.6 90)
+		(layer "F.SilkS")
+		(uuid "affce8b5-645d-4d62-a5ba-e6aeaf8461ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M2"
+		(at 126.2 103.6 90)
+		(layer "F.SilkS")
+		(uuid "901ef44e-49eb-4f78-ac2f-2b4e4ee06877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M1"
+		(at 128.6 103.6 90)
+		(layer "F.SilkS")
+		(uuid "225c55ab-2133-4097-bf0e-dcc598f31946")
 		(effects
 			(font
 				(size 1 1)

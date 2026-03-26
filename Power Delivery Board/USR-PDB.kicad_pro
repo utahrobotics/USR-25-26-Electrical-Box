@@ -75,8 +75,8 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "error",
-        "extra_footprint": "error",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "error",
         "footprint_symbol_field_mismatch": "warning",
@@ -117,12 +117,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "error",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "error",
@@ -766,7 +766,7 @@
         "uuid": "f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
       }
     ],
-    "used_designators": "J1,IC1-2,C1-15,L1,D1,#PWR1-16,U1-15,U18,F1-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

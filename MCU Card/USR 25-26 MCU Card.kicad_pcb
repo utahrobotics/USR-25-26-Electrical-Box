@@ -96,7 +96,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -18857,7 +18856,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Peter Burt\nJG\nVincent Banh\nMCU Card 25-26"
+	(gr_text "Peter Burt\nVincent Banh\nMCU Card 25-26"
 		(at 48.26 138.43 0)
 		(layer "B.SilkS")
 		(uuid "54601617-b190-4e93-9c35-64935cd85ca2")
@@ -18895,7 +18894,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "76.2"
+		(gr_text "3000"
 			(at 188.35 101.4475 90)
 			(layer "Cmts.User")
 			(uuid "495c96c3-31d3-4104-b9fa-dc59c619a03f")
@@ -18933,7 +18932,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "129.54"
+		(gr_text "5100"
 			(at 111.76 50.35 0)
 			(layer "Cmts.User")
 			(uuid "75ed3e7e-8ff6-4ffa-aede-18f1bdb40c39")

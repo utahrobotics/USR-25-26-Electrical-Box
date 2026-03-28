@@ -509,6 +509,30 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "12V Power Routing",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.5,
+        "tuning_profile": ""
+      },
+      {
+        "name": "5V Power Routing",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.5,
+        "tuning_profile": ""
+      },
+      {
+        "name": "POWER OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 7.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -516,7 +540,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "12V Power Routing",
+        "pattern": "12V_OUT"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U6-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U5-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U4-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U3-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U2-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U11-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "Net-(U12-VCC)"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "HE_sensor1"
+      },
+      {
+        "netclass": "POWER OUT",
+        "pattern": "HE_sensor2"
+      },
+      {
+        "netclass": "12V Power Routing",
+        "pattern": "Net-(U7-VIN)"
+      },
+      {
+        "netclass": "12V Power Routing",
+        "pattern": "Net-(D1-K)"
+      },
+      {
+        "netclass": "5V Power Routing",
+        "pattern": "5V_OUT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -11553,6 +11553,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "ERRATA: BRIDGE GROUNDS BETWEEN MOTOR DRIVERS AND BACKPLANE"
+		(at 121.92 149.86 0)
+		(layer "User.1")
+		(uuid "24a4276c-677b-42ec-83b3-3ea32cb4e8c2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "User.1")

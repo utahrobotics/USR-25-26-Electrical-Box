@@ -3804,6 +3804,12 @@
 		(uuid "35ac9099-51a3-4a58-aec6-380511a0e59d")
 	)
 	(junction
+		(at 369.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f5da51-1ede-4a57-8ec8-606da7b595b4")
+	)
+	(junction
 		(at 303.53 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4002,6 +4008,12 @@
 		(uuid "c1660d7f-54d3-40cb-89e8-6f5a1a792ac0")
 	)
 	(junction
+		(at 369.57 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a148c1-6847-44c8-8c98-5f4eb9176a25")
+	)
+	(junction
 		(at 31.75 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4037,6 +4049,12 @@
 		(color 0 0 0 0)
 		(uuid "f045b308-22b6-4f8d-8be0-bb895ece4ea1")
 	)
+	(junction
+		(at 369.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7fa42a0-a9b1-4673-a577-f08a6e76834b")
+	)
 	(no_connect
 		(at 110.49 228.6)
 		(uuid "0622e8cb-445c-4d7a-bbc3-4875b39ce1fd")
@@ -4058,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "00553425-73da-4bf9-864a-12b4f393c3bb")
+	)
+	(wire
+		(pts
+			(xy 369.57 66.04) (xy 369.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026c28b3-296c-44cd-b840-46694a51a8b0")
 	)
 	(wire
 		(pts
@@ -4168,6 +4196,16 @@
 			(type default)
 		)
 		(uuid "15401644-7ef4-4567-8e9d-6f011756e6c6")
+	)
+	(wire
+		(pts
+			(xy 369.57 71.12) (xy 369.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dc8246-a89c-410d-a79c-84876f3eda3d")
 	)
 	(wire
 		(pts
@@ -4368,6 +4406,26 @@
 			(type default)
 		)
 		(uuid "2a6cd49d-6dab-4cf3-9354-147a774a8e82")
+	)
+	(wire
+		(pts
+			(xy 372.11 69.85) (xy 370.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5d29a8-a32e-445c-aa9f-b483c6753de5")
+	)
+	(wire
+		(pts
+			(xy 370.84 69.85) (xy 369.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aa3e7d-f06a-4d1a-bb6c-f8edae113519")
 	)
 	(wire
 		(pts
@@ -4851,6 +4909,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 80.01) (xy 372.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aabc4f1-6f44-4336-9e3b-f7763c755e2a")
+	)
+	(wire
+		(pts
 			(xy 160.02 57.15) (xy 160.02 60.96)
 		)
 		(stroke
@@ -4858,6 +4926,16 @@
 			(type default)
 		)
 		(uuid "7c2c8fc7-0b3a-4398-b8ae-62b94793a740")
+	)
+	(wire
+		(pts
+			(xy 369.57 76.2) (xy 369.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3799c5-d43a-4c2a-93bd-6ccfb66b7991")
 	)
 	(wire
 		(pts
@@ -4901,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 74.93) (xy 370.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872bbd07-0d08-414b-8cd7-ca4bd50911c4")
+	)
+	(wire
+		(pts
 			(xy 29.21 162.56) (xy 63.5 162.56)
 		)
 		(stroke
@@ -4938,6 +5026,16 @@
 			(type default)
 		)
 		(uuid "8914b536-c697-435e-9508-bc3cc7a2c1e7")
+	)
+	(wire
+		(pts
+			(xy 369.57 82.55) (xy 369.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2d9b88-38e2-44f3-bf2b-e853075be206")
 	)
 	(wire
 		(pts
@@ -5001,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 74.93) (xy 369.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e1bbb7-caa3-4a2d-a1b1-d859a759657d")
+	)
+	(wire
+		(pts
 			(xy 128.27 210.82) (xy 181.61 210.82)
 		)
 		(stroke
@@ -5008,6 +5116,26 @@
 			(type default)
 		)
 		(uuid "a43697b9-bcb8-47bc-ba12-e3612f63979a")
+	)
+	(wire
+		(pts
+			(xy 370.84 64.77) (xy 369.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78974e9-4754-41be-aa19-99f5fcf3c9cf")
+	)
+	(wire
+		(pts
+			(xy 368.3 77.47) (xy 372.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8725309-e2af-4edc-b095-d34df86290e9")
 	)
 	(wire
 		(pts
@@ -5098,6 +5226,16 @@
 			(type default)
 		)
 		(uuid "b6166aa3-4c87-40bc-85b8-5750e23deb99")
+	)
+	(wire
+		(pts
+			(xy 368.3 67.31) (xy 372.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8634c01-688e-461c-b1d5-5a3de52ba46f")
 	)
 	(wire
 		(pts
@@ -5231,6 +5369,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 64.77) (xy 370.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c894bee6-f36e-4c58-9105-703302d46997")
+	)
+	(wire
+		(pts
 			(xy 181.61 247.65) (xy 156.21 247.65)
 		)
 		(stroke
@@ -5328,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "daac8a03-2cec-4eb7-8c1a-f27e3615f47c")
+	)
+	(wire
+		(pts
+			(xy 369.57 81.28) (xy 370.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf350c2-d5e2-40ad-9aac-b14386d7ff54")
 	)
 	(wire
 		(pts
@@ -5701,6 +5859,30 @@
 			)
 		)
 	)
+	(global_label "HE2_out"
+		(shape input)
+		(at 368.3 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a986fa4-0bad-4b2b-8c44-7bb1acd8b717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.6345 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Vin"
 		(shape input)
 		(at 43.18 52.07 0)
@@ -5770,6 +5952,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "HE1_out"
+		(shape input)
+		(at 368.3 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d40aff2-f09c-4f95-88df-2e383e9cba94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.6345 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6581,6 +6787,90 @@
 		)
 	)
 	(symbol
+		(lib_id "USR:JST-XA_3-PIN")
+		(at 377.19 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20bc6d4d-7405-496f-bd03-8789ecb2096d")
+		(property "Reference" "U13"
+			(at 381 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 377.19 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USR:JST-XA 3-PIN"
+			(at 377.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "725c803f-8bde-42c6-8ce1-cfdf5b37f246")
+		)
+		(pin "2"
+			(uuid "492c85d3-1693-453f-a0f1-8c1c23d6f453")
+		)
+		(pin "3"
+			(uuid "35b6065d-2e7f-4ac5-adf8-deb955911c99")
+		)
+		(instances
+			(project "USR-PDB"
+				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 156.21 220.98 0)
 		(unit 1)
@@ -6765,8 +7055,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Holder: 5A"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6891,6 +7182,90 @@
 		)
 	)
 	(symbol
+		(lib_id "USR:JST-XA_3-PIN")
+		(at 377.19 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "288c21d9-9678-44f1-8407-df83539055b8")
+		(property "Reference" "U1"
+			(at 381 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 377.19 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USR:JST-XA 3-PIN"
+			(at 377.19 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01860dd3-215f-4d66-823e-514234b3441f")
+		)
+		(pin "2"
+			(uuid "7eb68834-96f4-4ce3-875f-9afaf06e196f")
+		)
+		(pin "3"
+			(uuid "8546d29a-a649-4f4b-9867-a4122461fc05")
+		)
+		(instances
+			(project "USR-PDB"
+				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 288.29 60.96 0)
 		(unit 1)
@@ -6990,8 +7365,9 @@
 				)
 			)
 		)
-		(property "Value" "Extra fuse holder"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8923,8 +9299,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Holder: 5A"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9070,8 +9447,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Holder: 7A"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10590,8 +10968,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Holder: 5A"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10717,6 +11096,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 369.57 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d226e0-843d-402b-9d41-64cb90ff9d63")
+		(property "Reference" "#PWR017"
+			(at 369.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 369.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17777e0c-afbc-4de6-8a56-e611be94fd36")
+		)
+		(instances
+			(project "USR-PDB"
+				(path "/f68b009f-fb0c-4740-82e4-ffb6e04b94c2"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 196.85 232.41 0)
 		(unit 1)
 		(body_style 1)
@@ -10815,8 +11272,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse Holder: 3A"
+		(property "Value" "Fuse Holder: 30A"
 			(at 49.53 189.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

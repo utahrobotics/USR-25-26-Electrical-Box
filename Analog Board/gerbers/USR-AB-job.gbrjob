@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.0"
     },
-    "CreationDate": "2026-03-27T22:55:38-06:00"
+    "CreationDate": "2026-04-13T14:51:40-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "USR-AB",
       "GUID": "5553522d-4142-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "2"
     },
     "Size": {
       "X": 129.59,

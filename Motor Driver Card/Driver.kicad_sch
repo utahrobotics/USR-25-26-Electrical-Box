@@ -1356,6 +1356,12 @@
 		(uuid "61156929-15b7-4c5d-8c7d-0016bdfdfc17")
 	)
 	(junction
+		(at 118.11 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77175909-979d-47d3-bd40-cc924c544239")
+	)
+	(junction
 		(at 88.9 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1654,6 +1660,16 @@
 			(type default)
 		)
 		(uuid "aa72179d-fb5a-4251-8989-f406fbc2df92")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4b3130-ee0d-4857-bee6-bc310849c2ff")
 	)
 	(wire
 		(pts
@@ -2793,6 +2809,96 @@
 				)
 				(path "/5aa4e8c2-4058-44c7-902b-84d41792a65b/f33324f3-0309-453c-97d7-625409dd8a8e"
 					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97536ada-6e15-4110-87aa-3cc965cfb205")
+		(property "Reference" "#PWR09"
+			(at 118.11 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cfae027-3289-4a05-bbf4-b979fa8ce824")
+		)
+		(instances
+			(project "Motor_Driver_Card"
+				(path "/5aa4e8c2-4058-44c7-902b-84d41792a65b/086e49ea-d672-442a-9ce5-69c39153f8ee"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/5aa4e8c2-4058-44c7-902b-84d41792a65b/36ab9c78-7eb5-4a4f-b0c3-9a481581a7cf"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/5aa4e8c2-4058-44c7-902b-84d41792a65b/a2a4ecd6-3034-4225-8002-20f3d2522dde"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/5aa4e8c2-4058-44c7-902b-84d41792a65b/f33324f3-0309-453c-97d7-625409dd8a8e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

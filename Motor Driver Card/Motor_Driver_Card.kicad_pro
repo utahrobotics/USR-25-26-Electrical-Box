@@ -535,6 +535,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "GND": [
+        "24V"
+      ],
       "Net-(D1-K)": [
         "24V"
       ],
@@ -707,7 +710,7 @@
         "uuid": "5aa4e8c2-4058-44c7-902b-84d41792a65b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR9-10,#PWR13-14",
     "variants": []
   },
   "sheets": [

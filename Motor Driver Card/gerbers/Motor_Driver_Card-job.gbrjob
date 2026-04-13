@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.0"
     },
-    "CreationDate": "2026-03-27T23:00:41-06:00"
+    "CreationDate": "2026-04-13T14:49:32-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Motor_Driver_Card",
       "GUID": "4d6f746f-725f-4447-9269-7665725f4361",
-      "Revision": "rev?"
+      "Revision": "2"
     },
     "Size": {
       "X": 129.59,
